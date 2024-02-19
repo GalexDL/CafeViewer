@@ -340,9 +340,6 @@
 		(initMouseX - canMouseX !== 0 || initMouseY - canMouseY !== 0) &&
 		isCharacterLoaded
 	    ) {
-		let newScale = -(canvasX + initMouseX - canMouseX) / window.innerWidth;
-		newScale = Math.max(0, Math.min(1, newScale));
-		char.scale.x = char.scale.y = option.scale.value = newScale;
 	    }
 	}
 
