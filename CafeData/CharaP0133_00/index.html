@@ -329,24 +329,22 @@
 	}
 
 	function handleTouchEnd(e) {
-	    isDragging = true;
+	    isDragging = false;
 	}
 
-    function handleTouchMove(e) {
-        if (e.touches.length >= 1) {
-            const touch = e.touches[0];
-            if (isDragging && isCharacterLoaded) {
-            const newX = -(canvasX + touch.clientX - initMouseX);
-            const newY = -(canvasY + touch.clientY - initMouseY);
-            char.x = option.x.value = newX;
-            char.y = option.y.value = newY;
-            } else {
-            initMouseX = touch.clientX;
-            initMouseY = touch.clientY;
-            isDragging = true;
-            }
-        }
-    }
+	function handleTouchMove(e) {
+	    canMouseX = parseInt(e.touches[0].clientX - canvasX);
+	    canMouseY = parseInt(e.touches[0].clientY - canvasY);
+	    if (
+		isDragging &&
+		(initMouseX - canMouseX !== 0 || initMouseY - canMouseY !== 0) &&
+		isCharacterLoaded
+	    ) {
+		let newScale = -(canvasX + initMouseX - canMouseX) / window.innerWidth;
+		newScale = Math.max(0, Math.min(1, newScale));
+		char.scale.x = char.scale.y = option.scale.value = newScale;
+	    }
+	}
 
         // Resize event
         window.addEventListener('resize', function(event){
