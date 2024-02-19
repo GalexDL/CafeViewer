@@ -20,8 +20,8 @@ function reCanvas() {
     app = new PIXI.Application(
         {
             transparent: true,
-            width: 350,
-            height: 450,
+            width: 345,
+            height: 430,
             view: document.getElementById("screen")
         }
     );
