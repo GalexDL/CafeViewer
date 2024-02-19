@@ -19,9 +19,9 @@ let redApron = false;
 function reCanvas() {
     app = new PIXI.Application(
         {
-            width: window.innerWidth/1,
             transparent: true,
-            height: window.innerHeight/1,
+            width: 350,
+            height: 450,
             view: document.getElementById("screen")
         }
     );
