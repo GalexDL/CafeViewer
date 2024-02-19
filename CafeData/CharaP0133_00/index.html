@@ -329,7 +329,7 @@
 	}
 
 	function handleTouchEnd(e) {
-	    isDragging = true;
+	    isDragging = false;
 	}
 
 	function handleTouchMove(e) {
@@ -350,7 +350,6 @@
         window.addEventListener('resize', function(event){
             canvasScreen.width = window.innerWidth;
             canvasScreen.height = window.innerHeight;
-
         });
         //Load localStorage if exists
         if(localStorage["blue-archive-res-model"]) {
