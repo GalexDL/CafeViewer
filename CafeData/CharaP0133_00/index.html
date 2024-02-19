@@ -369,33 +369,7 @@
         canvasScreen.addEventListener("touchmove", handleTouchMove);
         canvasScreen.addEventListener("touchend", handleTouchEnd);
 
-        function handleTouchStart(e) {
-            if (e.touches.length >= 2) {
-                const touch1 = e.touches[0];
-                const touch2 = e.touches[1];
-                const dx = touch1.clientX - touch2.clientX;
-                const dy = touch1.clientY - touch2.clientY;
-                lastPinchDistance = Math.sqrt(dx * dx + dy * dy);
-            }
-        }
 
-        function handleTouchMove(e) {
-            if (e.touches.length >= 2) {
-                const touch1 = e.touches[0];
-                const touch2 = e.touches[1];
-                const dx = touch1.clientX - touch2.clientX;
-                const dy = touch1.clientY - touch2.clientY;
-                const pinchDistance = Math.sqrt(dx * dx + dy * dy);
-
-                if (lastPinchDistance) {
-                    const scaleDelta = (pinchDistance - lastPinchDistance) * 0.01; // Adjust the sensitivity as needed
-                    option.scale.value = parseFloat(option.scale.value) + scaleDelta;
-                    char.scale.x = char.scale.y = option.scale.value;
-                }
-
-                lastPinchDistance = pinchDistance;
-            }
-        }
     </script>
     <!-- Exporter -->
     <script src="../../js/canvas-exporter.js"></script>
