@@ -164,6 +164,20 @@
     margin-top: 620px;
     margin-left: 140px;
 }
+.CafeBackMiniMainBar {
+    position: absolute;
+    background-repeat: repeat;
+    pointer-events: none;
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    margin-top: 710px;
+    margin-left: 0px;
+    display: none;
+}
 .CafeBackRelated {
     position: absolute;
     background-repeat: repeat;
@@ -277,6 +291,10 @@
 
 
   @media (min-width: 960px) {
+    .CafeBackground {
+        width: 130%;
+        height: 130%;
+    }
     .CafeBackBorderBG {
         margin-top: 120px;
         margin-left: 0px;
@@ -621,6 +639,12 @@
     .CafeBackMainBar {
         margin-top: 720px;
         margin-left: -50px;
+        display:none;
+    }
+    .CafeBackMiniMainBar {
+        margin-top: 710px;
+        margin-left: 0px;
+        display:flex
     }
     .CafeBackRelated {
         margin-top: 150px;
@@ -637,8 +661,8 @@
         width:100%;
     }
     .Image-ButtonTwo {
-        height: 100px;
-        width: 100px;
+        height: 80px;
+        width: 80px;
     }
     .PokeName {
         margin-top: 20px;
@@ -681,7 +705,7 @@
         margin-left: 230px;
     }
     .Icon-Contain{
-        margin-top: 675px;
+        margin-top: 680px;
         margin-left: -30px;
         width: 340px;
     }
