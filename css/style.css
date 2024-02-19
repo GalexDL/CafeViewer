@@ -276,7 +276,7 @@
 }
 
 
-  @media (max-width: 960px) {
+  @media (min-width: 960px) {
     .CafeBackBorderBG {
         margin-top: 120px;
         margin-left: 0px;
@@ -602,5 +602,96 @@
     }
     .RelatedName{
         margin-left: 1040px;
+    }
+  }
+
+  @media (max-width: 960px) {
+    .CafeBackBorderBG {
+        margin-top: 120px;
+        margin-left: 0px;
+    }
+    .CafeBackBorder {
+        margin-top: 120px;
+        margin-left: 0px;
+    }
+    .PixiLoader {
+        margin-top: 165px;
+        margin-left: 30px;
+    }
+    .CafeBackMainBar {
+        margin-top: 720px;
+        margin-left: -50px;
+    }
+    .CafeBackRelated {
+        margin-top: 150px;
+        margin-left: 0px;
+        display:none;
+    }
+    .CafeBackAnimation {
+        margin-top: 600px;
+        margin-left: 0px;
+    }
+    .CafeBackPokeName {
+        margin-top: 70px;
+        margin-left: 0px;
+        width:100%;
+    }
+    .Image-ButtonTwo {
+        height: 100px;
+        width: 100px;
+    }
+    .PokeName {
+        margin-top: 20px;
+        margin-left: 120px;
+        font-size: 40px;
+    }
+    .Image-ButtonGM {
+        margin-top: 220px;
+        margin-left: 30px;
+        width: 40px;
+        height: 40px;
+    }
+    .Image-ButtonGF {
+        margin-top: 150px;
+        margin-left: 30px;
+        width: 40px;
+        height: 40px;
+    }
+    .Image-ButtonThree{
+        margin-top: 500px;
+        margin-left: 50px;
+
+    }
+    .ShinyButton{
+        margin-top:490px;
+        margin-left: 40px;
+        width: 40px;
+        height: 40px;
+    }
+    .AnimationContain{
+        margin-top:645px;
+        margin-left: 40px;
+    }
+    .AnimLoops{
+        margin-top:655px;
+        margin-left: 230px;
+    }
+    .AnimationContain2{
+        margin-top:645px;
+        margin-left: 230px;
+    }
+    .Icon-Contain{
+        margin-top: 675px;
+        margin-left: -30px;
+        width: 340px;
+    }
+    .AnimScaleName{
+        margin-top: 580px;
+        margin-left: 120px;
+        font-size: 13px;
+    }
+    .RelatedName{
+        margin-left: 0px;
+        display:none;
     }
   }
