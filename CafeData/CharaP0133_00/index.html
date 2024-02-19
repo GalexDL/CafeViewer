@@ -219,12 +219,6 @@
             option.models.appendChild(opt);
         }
 
-        // Events
-        //option.models.onchange = function() {
-            //localStorage.setItem("blue-archive-res-model", this.value);
-            //loadChar(this.value)
-        //}
-
         option.skins.onchange = function() {
             setSkinByName(this.value);
         }
@@ -233,9 +227,6 @@
             playAnimation(this.value);
         }
 
-        //option.colorr.onchange = function() {
-            //setColor(this.value);
-        //}
         option.loop.onchange = function() {
             localStorage.setItem("blue-archive-res-loop", this.checked);
             playAnimation(option.animations.value);
@@ -341,19 +332,21 @@
 	    isDragging = false;
 	}
 
-	function handleTouchMove(e) {
-	    canMouseX = parseInt(e.touches[0].clientX - canvasX);
-	    canMouseY = parseInt(e.touches[0].clientY - canvasY);
-	    if (
-		isDragging &&
-		(initMouseX - canMouseX !== 0 || initMouseY - canMouseY !== 0) &&
-		isCharacterLoaded
-	    ) {
-		let newScale = -(canvasX + initMouseX - canMouseX) / window.innerWidth;
-		newScale = Math.max(0, Math.min(1, newScale));
-		char.scale.x = char.scale.y = option.scale.value = newScale;
-	    }
-	}
+    function handleTouchMove(e) {
+        if (e.touches.length >= 1) {
+            const touch = e.touches[0];
+            if (isDragging && isCharacterLoaded) {
+            const newX = -(canvasX + touch.clientX - initMouseX);
+            const newY = -(canvasY + touch.clientY - initMouseY);
+            char.x = option.x.value = newX;
+            char.y = option.y.value = newY;
+            } else {
+            initMouseX = touch.clientX;
+            initMouseY = touch.clientY;
+            isDragging = true;
+            }
+        }
+    }
 
         // Resize event
         window.addEventListener('resize', function(event){
