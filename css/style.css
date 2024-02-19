@@ -1,0 +1,606 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);
+}
+  
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(104, 152, 255);
+}
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(58, 120, 255);
+}
+.CafeBack {
+    position: absolute;
+    background-repeat: repeat;
+    pointer-events: none;
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+.Icon-Contain {
+    position: absolute;
+    background-color: rgba(255, 0, 0, 0);
+    margin-top: 630px;
+    margin-left: 420px;
+    display: flex;
+    width: 820px;
+    overflow: scroll;
+}
+.Icon-Contain div {
+    padding: 10px
+}
+.Image-Button {
+    border: none;
+    outline: none;
+    background: url("../CafeData/null/empty.png");
+    height: 120px;
+    width: 120px;
+}
+.Image-Button:hover {
+    opacity: 0.5;
+}
+
+.Image-ButtonTwo {
+    border: none;
+    outline: none;
+    background: url("../CafeData/null/empty.png");
+    height: 120px;
+    width: 120px;
+}
+.Image-ButtonTwo:hover {
+    opacity: 0.5;
+}
+
+.Image-ButtonThree {
+    position: absolute;
+    border: none;
+    outline: none;
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+}
+.Image-ButtonThree :hover {
+    opacity: 0.5;
+}
+.Image-ButtonThree :checked {
+    background-color: black;
+}
+
+
+.AnimationContain{
+    margin-top: 560px;
+    margin-left: 1000px;
+    position: absolute;
+    border: none;
+    outline: none;
+    background: url("../CafeData/null/empty.png");
+    font-size: 25px;
+}
+
+.AnimationContain2{
+    margin-top: 560px;
+    margin-left: 1200px;
+    width: 75px;
+    position: absolute;
+    border: none;
+    outline: none;
+    background: url("../CafeData/null/empty.png");
+    font-size: 25px;
+}
+
+@font-face {
+    font-family: "LGPE";
+    src: url(../UI/LGPEFont.otf) format("truetype");
+}
+
+.hidden {
+    display: none;
+  }
+
+.CafeBackground {
+    position: absolute;
+    background-repeat: repeat;
+    pointer-events: none;
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    width: 150%;
+    height: 150%;
+}
+.CafeBackBorderBG {
+    position: absolute;
+    background-repeat: repeat;
+    pointer-events: none;
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    margin-top: 120px;
+    margin-left: 300px;
+}
+.CafeBackBorder {
+    position: absolute;
+    background-repeat: repeat;
+    pointer-events: none;
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    margin-top: 120px;
+    margin-left: 300px;
+}
+.CafeBackMainBar {
+    position: absolute;
+    background-repeat: repeat;
+    pointer-events: none;
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    margin-top: 620px;
+    margin-left: 140px;
+}
+.CafeBackRelated {
+    position: absolute;
+    background-repeat: repeat;
+    pointer-events: none;
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    margin-top: 150px;
+    margin-left: 980px;
+}
+.CafeBackAnimation {
+    position: absolute;
+    background-repeat: repeat;
+    pointer-events: none;
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    margin-top: 500px;
+    margin-left: 940px;
+}
+.CafeBackPokeName {
+    position: absolute;
+    background-repeat: repeat;
+    pointer-events: none;
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    margin-top: 20px;
+    margin-left: 600px;
+}
+.PokeName {
+    position: absolute;
+    color:rgb(228, 227, 227);
+    font-size: 50px;
+    font-family: LGPE;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: rgb(157, 25, 25);
+    margin-top: 10px;
+    margin-left: 960px;
+}
+.Image-ButtonGM {
+    position: absolute;
+    border: none;
+    outline: none;
+    background: url("../CafeData/null/empty.png");
+    height: 120px;
+    width: 120px;
+    margin-top: 220px;
+    margin-left: 690px;
+}
+.Image-ButtonGM:hover {
+    opacity: 0.5;
+}
+.Image-ButtonGF {
+    position: absolute;
+    border: none;
+    outline: none;
+    background: url("../CafeData/null/empty.png");
+    height: 120px;
+    width: 120px;
+    margin-top: 150px;
+    margin-left: 690px;
+}
+.Image-ButtonGF:hover {
+    opacity: 0.5;
+}
+.ShinyButton{
+    width: 80px;
+    height: 80px;
+    margin-top: -40px;
+    margin-left: -40px;
+    position: absolute;
+    margin-top:500px;
+    margin-left: 690px;
+}
+.AnimLoops{
+    margin-top: 569px;
+    margin-left: 1200px;
+    position: absolute;
+    background-color: rgb(84, 38, 38);
+}
+.AnimScaleName{
+    margin-top: 480px;
+    margin-left: 1085px;
+    position: absolute;
+    color:black;
+    font-family: LGPE;
+}
+.RelatedName{
+    margin-top: 135px;
+    margin-left: 1050px;
+    position: absolute;
+    color:black;
+    font-size: 25px;
+    font-family: LGPE;
+}
+.PixiLoader {
+    position: absolute;
+    margin-top: 165px;
+    margin-left: 317px;
+}
+
+
+  @media (max-width: 960px) {
+    .CafeBackBorderBG {
+        margin-top: 120px;
+        margin-left: 0px;
+    }
+    .CafeBackBorder {
+        margin-top: 120px;
+        margin-left: 0px;
+    }
+    .PixiLoader {
+        margin-top: 165px;
+        margin-left: 30px;
+    }
+    .CafeBackMainBar {
+        margin-top: 620px;
+        margin-left: -50px;
+    }
+    .CafeBackRelated {
+        margin-top: 150px;
+        margin-left: 540px;
+    }
+    .CafeBackAnimation {
+        margin-top: 500px;
+        margin-left: 500px;
+    }
+    .CafeBackPokeName {
+        margin-top: 50px;
+        margin-left: 350px;
+        width:65%;
+    }
+    .Image-ButtonTwo {
+        height: 100px;
+        width: 100px;
+    }
+    .PokeName {
+        margin-left: 550px;
+    }
+    .Image-ButtonGM {
+        margin-top: 220px;
+        margin-left: 390px;
+        width: 70px;
+        height: 70px;
+    }
+    .Image-ButtonGF {
+        margin-top: 150px;
+        margin-left: 390px;
+        width: 70px;
+        height: 70px;
+    }
+    .Image-ButtonThree{
+        margin-top: 530px;
+        margin-left: 400px;
+
+    }
+    .ShinyButton{
+        margin-top:500px;
+        margin-left: 390px;
+    }
+    .AnimationContain{
+        margin-top:560px;
+        margin-left: 580px;
+    }
+    .AnimLoops{
+        margin-top:569px;
+        margin-left: 780px;
+    }
+    .AnimationContain2{
+        margin-top:560px;
+        margin-left: 790px;
+    }
+    .Icon-Contain{
+        margin-top: 615px;
+        margin-left: 100px;
+        width: 580px;
+    }
+    .AnimScaleName{
+        margin-left: 645px;
+    }
+    .RelatedName{
+        margin-left: 600px;
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .CafeBackBorderBG {
+        margin-top: 120px;
+        margin-left: 100px;
+    }
+    .CafeBackBorder {
+        margin-top: 120px;
+        margin-left: 100px;
+    }
+    .PixiLoader {
+        margin-top: 165px;
+        margin-left: 130px;
+    }
+    .CafeBackMainBar {
+        margin-top: 620px;
+        margin-left: 0px;
+    }
+    .CafeBackRelated {
+        margin-top: 150px;
+        margin-left: 640px;
+    }
+    .CafeBackAnimation {
+        margin-top: 500px;
+        margin-left: 600px;
+    }
+    .CafeBackPokeName {
+        margin-top: 20px;
+        margin-left: 350px;
+    }
+    .Image-ButtonTwo {
+        height: 100px;
+        width: 100px;
+    }
+    .PokeName {
+        margin-top: 10px;
+        margin-left: 730px;
+    }
+    .Image-ButtonGM {
+        margin-top: 220px;
+        margin-left: 490px;
+        width: 70px;
+        height: 70px;
+    }
+    .Image-ButtonGF {
+        margin-top: 150px;
+        margin-left: 490px;
+        width: 70px;
+        height: 70px;
+    }
+    .Image-ButtonThree{
+        margin-top: 530px;
+        margin-left: 500px;
+    }
+    .ShinyButton{
+        margin-top:500px;
+        margin-left: 490px;
+    }
+    .AnimationContain{
+        margin-top:560px;
+        margin-left: 650px;
+    }
+    .AnimLoops{
+        margin-top:569px;
+        margin-left: 845px;
+    }
+    .AnimationContain2{
+        margin-top:560px;
+        margin-left: 860px;
+    }
+    .Icon-Contain{
+        margin-top: 615px;
+        margin-left: 200px;
+        width: 780px;
+    }
+    .AnimScaleName{
+        margin-left: 743px;
+    }
+    .RelatedName{
+        margin-left: 700px;
+    }
+  }
+
+  @media (min-width: 1536px) {
+    .CafeBackBorderBG {
+        margin-top: 120px;
+        margin-left: 300px;
+    }
+    .CafeBackBorder {
+        margin-top: 120px;
+        margin-left: 300px;
+    }
+    .PixiLoader {
+        margin-top: 165px;
+        margin-left: 330px;
+    }
+    .CafeBackMainBar {
+        margin-top: 620px;
+        margin-left: 50px;
+    }
+    .CafeBackRelated {
+        margin-top: 150px;
+        margin-left: 840px;
+    }
+    .CafeBackAnimation {
+        margin-top: 500px;
+        margin-left: 800px;
+    }
+    .CafeBackPokeName {
+        margin-top: 20px;
+        margin-left: 550px;
+    }
+    .Image-ButtonTwo {
+        height: 100px;
+        width: 100px;
+    }
+    .PokeName {
+        margin-top: 10px;
+        margin-left: 930px;
+    }
+    .Image-ButtonGM {
+        margin-top: 220px;
+        margin-left: 690px;
+        width: 70px;
+        height: 70px;
+    }
+    .Image-ButtonGF {
+        margin-top: 150px;
+        margin-left: 690px;
+        width: 70px;
+        height: 70px;
+    }
+    .Image-ButtonThree{
+        margin-top: 530px;
+        margin-left: 700px;
+    }
+    .ShinyButton{
+        margin-top:500px;
+        margin-left: 690px;
+    }
+    .AnimationContain{
+        margin-top:560px;
+        margin-left: 850px;
+    }
+    .AnimLoops{
+        margin-top:569px;
+        margin-left: 1045px;
+    }
+    .AnimationContain2{
+        margin-top:560px;
+        margin-left: 1060px;
+    }
+    .Icon-Contain{
+        margin-top: 640px;
+        margin-left: 280px;
+        width: 900px;
+    }
+    .AnimScaleName{
+        margin-left: 943px;
+    }
+    .RelatedName{
+        margin-left: 900px;
+    }
+  }
+
+  @media (min-width: 1920px) {
+    .CafeBackBorderBG {
+        margin-top: 120px;
+        margin-left: 300px;
+    }
+    .CafeBackBorder {
+        margin-top: 120px;
+        margin-left: 300px;
+    }
+    .PixiLoader {
+        margin-top: 165px;
+        margin-left: 317px;
+    }
+    .CafeBackMainBar {
+        margin-top: 620px;
+        margin-left: 140px;
+    }
+    .CafeBackRelated {
+        margin-top: 150px;
+        margin-left: 980px;
+    }
+    .CafeBackAnimation {
+        margin-top: 500px;
+        margin-left: 940px;
+    }
+    .CafeBackPokeName {
+        margin-top: 20px;
+        margin-left: 600px;
+    }
+    .Image-ButtonTwo {
+        height: 120px;
+        width: 120px;
+    }
+    .PokeName {
+        margin-top: 10px;
+        margin-left: 960px;
+    }
+    .Image-ButtonGM {
+        margin-top: 220px;
+        margin-left: 690px;
+        width: 70px;
+        height: 70px;
+    }
+    .Image-ButtonGF {
+        margin-top: 150px;
+        margin-left: 690px;
+        width: 70px;
+        height: 70px;
+    }
+    .Image-ButtonThree{
+        margin-top: 530px;
+        margin-left: 700px;
+    }
+    .ShinyButton{
+        margin-top:500px;
+        margin-left: 690px;
+    }
+    .AnimationContain{
+        margin-top:560px;
+        margin-left: 1000px;
+    }
+    .AnimLoops{
+        margin-top:569px;
+        margin-left: 1200px;
+    }
+    .AnimationContain2{
+        margin-top:560px;
+        margin-left: 1200px;
+    }
+    .Icon-Contain{
+        margin-top: 650px;
+        margin-left: 390px;
+        width: 900px;
+    }
+    .AnimScaleName{
+        margin-left: 1085px;
+    }
+    .RelatedName{
+        margin-left: 1040px;
+    }
+  }
