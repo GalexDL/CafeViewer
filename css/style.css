@@ -706,8 +706,8 @@
     }
     .Icon-Contain{
         margin-top: 680px;
-        margin-left: -30px;
-        width: 340px;
+        margin-left: 0px;
+        width: 300px;
     }
     .AnimScaleName{
         margin-top: 580px;
