@@ -78,17 +78,17 @@
                             <div style="display: none;"class="uk-width-1-1">
                                 <p>You can also move it by dragging.</p>
                             </div>
-                            <div style="display: none;"class="uk-width-1-4 uk-margin">
+                            <div style="display: show;"class="uk-width-1-4 uk-margin">
                                 <p>X</p>
                             </div>
-                            <div style="display: none;"class="uk-width-3-4">
-                                <input class="uk-input" type="number" min="0" step="1" id="optionX" disabled>
+                            <div style="display: show;"class="uk-width-3-4">
+                                <input class="uk-input" type="number" min="0" step="10" id="optionX" enabled>
                             </div>
-                            <div style="display: none;"class="uk-width-1-4 uk-margin">
+                            <div style="display: show;"class="uk-width-1-4 uk-margin">
                                 <p>Y</p>
                             </div>
-                            <div style="display: none;"class="uk-width-3-4">
-                                <input class="uk-input" type="number" min="0" step="1" id="optionY" disabled>
+                            <div style="display: show;"class="uk-width-3-4">
+                                <input class="uk-input" type="number" min="0" step="10" id="optionY" enabled>
                             </div>
             </ul>
             <!-- Export Animation -->
@@ -278,6 +278,8 @@
 	let canMouseX, canMouseY;
 	let initMouseX, initMouseY;
 	let canvasX, canvasY;
+    let modelOffsetX, modelOffsetY;
+
 
 	canvasScreen.addEventListener("mousedown", handleMouseDown);
 	canvasScreen.addEventListener("mouseup", handleMouseUp);
@@ -285,8 +287,9 @@
 	canvasScreen.addEventListener("mousemove", handleMouseMove);
 
 	canvasScreen.addEventListener("touchstart", handleTouchStart);
-	canvasScreen.addEventListener("touchend", handleTouchEnd);
 	canvasScreen.addEventListener("touchmove", handleTouchMove);
+    canvasScreen.addEventListener("touchend", handleTouchEnd);
+
 
 
 	function handleMouseDown(e) {
@@ -321,18 +324,33 @@
 
 
 	function handleTouchStart(e) {
-	    e.preventDefault();
-	    canvasX = -char.x;
-	    canvasY = -char.y;
-	    initMouseX = parseInt(e.touches[0].clientX - canvasX);
-	    initMouseY = parseInt(e.touches[0].clientY - canvasY);
-	    isDragging = true;
+        e.preventDefault();
+        isDragging = true;
+        initTouchX = e.touches[0].clientX;
+        initTouchY = e.touches[0].clientY;
+        modelOffsetX = char.x;
+        modelOffsetY = char.y;
 	}
 
+    function handleTouchMove(e) {
+        if (isDragging) {
+            const touchX = e.touches[0].clientX;
+            const touchY = e.touches[0].clientY;
+            const deltaX = touchX - initTouchX;
+            const deltaY = touchY - initTouchY;
+
+            // Update model position while preventing out-of-bounds movement
+            char.x = Math.max(0, Math.min(app.renderer.width - char.width, modelOffsetX + deltaX));
+            char.y = Math.max(0, Math.min(app.renderer.height - char.height, modelOffsetY + deltaY));
+
+            // Optionally update X/Y input fields (uncomment if desired)
+            // optionX.value = char.x;
+            // optionY.value = char.y;
+        }
+    }
 	function handleTouchEnd(e) {
-	    isDragging = true;
+	    isDragging = false;
 	}
-
 
         // Resize event
         window.addEventListener('resize', function(event){
@@ -340,13 +358,13 @@
             canvasScreen.height = window.innerHeight;
         });
         //Load localStorage if exists
-        if(localStorage["blue-archive-res-model"]) {
-            option.models.value = localStorage["blue-archive-res-model"]
-        } else {
-            option.models.value = option.models.children[0].value;
-        }
-        if(localStorage["blue-archive-res-loop"])
-            option.loop.checked = localStorage["blue-archive-res-loop"]
+        //if(localStorage["blue-archive-res-model"]) {
+            //option.models.value = localStorage["blue-archive-res-model"]
+        //} else {
+            //option.models.value = option.models.children[0].value;
+        //}
+        //if(localStorage["blue-archive-res-loop"])
+            //option.loop.checked = localStorage["blue-archive-res-loop"]
 
         // Start
         reCanvas();
@@ -355,37 +373,9 @@
   
         let lastPinchDistance = null;
 
-        canvasScreen.addEventListener("touchstart", handleTouchStart);
-        canvasScreen.addEventListener("touchmove", handleTouchMove);
-        canvasScreen.addEventListener("touchend", handleTouchEnd);
 
-        function handleTouchStart(e) {
-            if (e.touches.length >= 2) {
-                const touch1 = e.touches[0];
-                const touch2 = e.touches[1];
-                const dx = touch1.clientX - touch2.clientX;
-                const dy = touch1.clientY - touch2.clientY;
-                lastPinchDistance = Math.sqrt(dx * dx + dy * dy);
-            }
-        }
 
-        function handleTouchMove(e) {
-            if (e.touches.length >= 2) {
-                const touch1 = e.touches[0];
-                const touch2 = e.touches[1];
-                const dx = touch1.clientX - touch2.clientX;
-                const dy = touch1.clientY - touch2.clientY;
-                const pinchDistance = Math.sqrt(dx * dx + dy * dy);
 
-                if (lastPinchDistance) {
-                    const scaleDelta = (pinchDistance - lastPinchDistance) * 0.01; // Adjust the sensitivity as needed
-                    option.scale.value = parseFloat(option.scale.value) + scaleDelta;
-                    char.scale.x = char.scale.y = option.scale.value;
-                }
-
-                lastPinchDistance = pinchDistance;
-            }
-        }
     </script>
     <!-- Exporter -->
     <script src="../../js/canvas-exporter.js"></script>
