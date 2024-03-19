@@ -194,7 +194,6 @@
 .CafeBackAnimation {
     position: absolute;
     background-repeat: repeat;
-    pointer-events: none;
     user-drag: none;
     user-select: none;
     -moz-user-select: none;
@@ -262,6 +261,10 @@
     margin-top:500px;
     margin-left: 690px;
 }
+.ShinyButton:hover {
+    width: 90px;
+    height: 90px;
+}
 .AnimLoops{
     margin-top: 569px;
     margin-left: 1200px;
@@ -287,6 +290,18 @@
     position: absolute;
     margin-top: 165px;
     margin-left: 317px;
+}
+.Exit {
+    position: absolute;
+    margin-left: 270px;
+    background: url("../CafeData/null/empty.png");
+    border: none;
+    outline: none;
+    height: 75px;
+    width: 75px;
+}
+.Exit:hover {
+    opacity: 0.5;
 }
 
 
