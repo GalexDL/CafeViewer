@@ -1,5 +1,7 @@
 # CafeViewer
-Oye
+This a Sprite/Animation Viewer for Pokemon Cafe ReMix. Collaborated along with a few other people.
+
+Credits to: AbsolutelyPM, ElChicoEevee, Me(LostGalex /ItsGalex_), and a few people from discord 
 
       Bugs / Issues
       - Changing Eevee's gender while its wearing a hat can choose the wrong color. Refresh the page and reslect to fix
