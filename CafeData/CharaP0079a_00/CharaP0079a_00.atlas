@@ -1,0 +1,209 @@
+
+CharaP0079a_00.png
+size: 2048,2048
+format: RGBA8888
+filter: MipMap,MipMap
+repeat: none
+Body
+  rotate: false
+  xy: 2, 1666
+  size: 559, 380
+  orig: 559, 380
+  offset: 0, 0
+  index: -1
+Cap_Shadow
+  rotate: false
+  xy: 1258, 1630
+  size: 167, 50
+  orig: 167, 50
+  offset: 0, 0
+  index: -1
+Close_Mouth
+  rotate: false
+  xy: 1165, 1422
+  size: 358, 189
+  orig: 358, 191
+  offset: 0, 0
+  index: -1
+Color_Cap
+  rotate: false
+  xy: 320, 1380
+  size: 207, 90
+  orig: 207, 90
+  offset: 0, 0
+  index: -1
+Color_CapLight
+  rotate: false
+  xy: 2, 1365
+  size: 207, 90
+  orig: 207, 90
+  offset: 0, 0
+  index: -1
+Color_Scarf
+  rotate: true
+  xy: 559, 1678
+  size: 368, 337
+  orig: 368, 337
+  offset: 0, 0
+  index: -1
+Color_ScarfLight
+  rotate: 270
+  xy: 823, 1678
+  size: 368, 337
+  orig: 368, 337
+  offset: 0, 0
+  index: -1
+Color_ScarfMark
+  rotate: 270
+  xy: 1160, 1678
+  size: 368, 337
+  orig: 368, 337
+  offset: 0, 0
+  index: -1
+Eye_L_Close
+  rotate: false
+  xy: 128, 2038
+  size: 25, 8
+  orig: 25, 8
+  offset: 0, 0
+  index: -1
+Eye_L_Open
+  rotate: false
+  xy: 472, 2035
+  size: 7, 11
+  orig: 7, 11
+  offset: 0, 0
+  index: -1
+Eye_L_Smile
+  rotate: false
+  xy: 51, 2024
+  size: 30, 22
+  orig: 30, 22
+  offset: 0, 0
+  index: -1
+Eye_R_Close
+  rotate: false
+  xy: 83, 2036
+  size: 43, 10
+  orig: 43, 10
+  offset: 0, 0
+  index: -1
+Eye_R_Open
+  rotate: false
+  xy: 460, 2035
+  size: 10, 11
+  orig: 10, 11
+  offset: 0, 0
+  index: -1
+Eye_R_Smile
+  rotate: false
+  xy: 2, 2021
+  size: 47, 25
+  orig: 47, 25
+  offset: 0, 0
+  index: -1
+Head
+  rotate: false
+  xy: 332, 1468
+  size: 349, 249
+  orig: 349, 249
+  offset: 0, 0
+  index: -1
+L_Arm
+  rotate: false
+  xy: 700, 1356
+  size: 171, 128
+  orig: 171, 128
+  offset: 0, 0
+  index: -1
+L_Ear
+  rotate: false
+  xy: 1921, 1618
+  size: 126, 119
+  orig: 126, 119
+  offset: 0, 0
+  index: -1
+L_Leg
+  rotate: true
+  xy: 1554, 1342
+  size: 171, 256
+  orig: 171, 256
+  offset: 0, 0
+  index: -1
+Open_Mouth
+  rotate: true
+  xy: 1843, 1688
+  size: 359, 184
+  orig: 359, 184
+  offset: 0, 0
+  index: -1
+R_Arm
+  rotate: 270
+  xy: 1491, 1743
+  size: 207, 182
+  orig: 207, 182
+  offset: 0, 0
+  index: -1
+R_Ear
+  rotate: false
+  xy: 1129, 1646
+  size: 178, 152
+  orig: 178, 152
+  offset: 0, 0
+  index: -1
+R_Leg
+  rotate: true
+  xy: 1700, 1429
+  size: 184, 346
+  orig: 184, 352
+  offset: 0, 0
+  index: -1
+Shadow
+  rotate: false
+  xy: 914, 1344
+  size: 683, 40
+  orig: 683, 40
+  offset: 0, 0
+  index: -1
+Smile_Mouth
+  rotate: 180
+  xy: 1430, 1515
+  size: 359, 208
+  orig: 359, 208
+  offset: 0, 0
+  index: -1
+Surprise_Mouth
+  rotate: false
+  xy: 2, 1440
+  size: 359, 191
+  orig: 359, 191
+  offset: 0, 0
+  index: -1
+Sweat
+  rotate: false
+  xy: 550, 1955
+  size: 32, 91
+  orig: 32, 91
+  offset: 0, 0
+  index: -1
+Tail
+  rotate: 180
+  xy: 1496, 1677
+  size: 356, 369
+  orig: 356, 369
+  offset: 0, 0
+  index: -1
+TailB
+  rotate: false
+  xy: 678, 1473
+  size: 502, 206
+  orig: 502, 206
+  offset: 0, 0
+  index: -1
+Tie_Shadow
+  rotate: false
+  xy: 559, 1330
+  size: 368, 264
+  orig: 368, 264
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,230 @@
+
+CharaP0079_50.png
+size: 2048,2048
+format: RGBA8888
+filter: MipMap,MipMap
+repeat: none
+Body
+  rotate: false
+  xy: 756, 1649
+  size: 559, 380
+  orig: 559, 380
+  offset: 0, 0
+  index: -1
+Close_Mouth
+  rotate: false
+  xy: 307, 1322
+  size: 358, 189
+  orig: 358, 191
+  offset: 0, 0
+  index: -1
+Eye_L_Close
+  rotate: false
+  xy: 2, 1846
+  size: 25, 8
+  orig: 25, 8
+  offset: 0, 0
+  index: -1
+Eye_L_Open
+  rotate: false
+  xy: 2, 1932
+  size: 7, 11
+  orig: 7, 11
+  offset: 0, 0
+  index: -1
+Eye_L_Smile
+  rotate: false
+  xy: 2, 1903
+  size: 30, 22
+  orig: 30, 22
+  offset: 0, 0
+  index: -1
+Eye_R_Close
+  rotate: false
+  xy: 2, 1856
+  size: 43, 10
+  orig: 43, 10
+  offset: 0, 0
+  index: -1
+Eye_R_Open
+  rotate: false
+  xy: 2, 1945
+  size: 10, 11
+  orig: 10, 11
+  offset: 0, 0
+  index: -1
+Eye_R_Smile
+  rotate: false
+  xy: 2, 1868
+  size: 47, 25
+  orig: 47, 25
+  offset: 0, 0
+  index: -1
+Head
+  rotate: 180
+  xy: 1016, 1448
+  size: 349, 249
+  orig: 349, 249
+  offset: 0, 0
+  index: -1
+Kotatu_Ashi
+  rotate: true
+  xy: 2, 1224
+  size: 53, 353
+  orig: 53, 353
+  offset: 0, 0
+  index: -1
+Kotatu_B
+  rotate: true
+  xy: 1316, 1527
+  size: 502, 316
+  orig: 502, 316
+  offset: 0, 0
+  index: -1
+Kotatu_F1
+  rotate: false
+  xy: 2, 1559
+  size: 770, 470
+  orig: 846, 470
+  offset: 0, 0
+  index: -1
+Kotatu_F2
+  rotate: false
+  xy: 1551, 1182
+  size: 477, 357
+  orig: 846, 470
+  offset: 369, 11
+  index: -1
+L_Arm
+  rotate: false
+  xy: 533, 1717
+  size: 171, 128
+  orig: 171, 128
+  offset: 0, 0
+  index: -1
+L_Ear
+  rotate: false
+  xy: 2, 1615
+  size: 126, 119
+  orig: 126, 119
+  offset: 0, 0
+  index: -1
+L_Leg
+  rotate: false
+  xy: 1117, 1188
+  size: 171, 256
+  orig: 171, 256
+  offset: 0, 0
+  index: -1
+Mikan_1
+  rotate: false
+  xy: 560, 1205
+  size: 92, 72
+  orig: 92, 72
+  offset: 0, 0
+  index: -1
+Mikan_2
+  rotate: false
+  xy: 2, 1764
+  size: 78, 65
+  orig: 78, 65
+  offset: 0, 0
+  index: -1
+Mikan_3_1
+  rotate: false
+  xy: 357, 1184
+  size: 100, 93
+  orig: 100, 93
+  offset: 0, 0
+  index: -1
+Mikan_3_2
+  rotate: false
+  xy: 2, 1720
+  size: 38, 43
+  orig: 38, 43
+  offset: 0, 0
+  index: -1
+Mikan_4
+  rotate: false
+  xy: 459, 1197
+  size: 99, 80
+  orig: 99, 80
+  offset: 0, 0
+  index: -1
+Mikan_Kago
+  rotate: false
+  xy: 2, 1332
+  size: 236, 57
+  orig: 236, 57
+  offset: 0, 0
+  index: -1
+Open_Mouth
+  rotate: 180
+  xy: 424, 1845
+  size: 359, 184
+  orig: 359, 184
+  offset: 0, 0
+  index: -1
+R_Arm
+  rotate: false
+  xy: 674, 1192
+  size: 207, 182
+  orig: 207, 182
+  offset: 0, 0
+  index: -1
+R_Ear
+  rotate: false
+  xy: 883, 1192
+  size: 178, 152
+  orig: 178, 152
+  offset: 0, 0
+  index: -1
+R_Leg
+  rotate: false
+  xy: 1364, 1195
+  size: 184, 346
+  orig: 184, 352
+  offset: 0, 0
+  index: -1
+Shadow
+  rotate: false
+  xy: 2, 1279
+  size: 683, 40
+  orig: 683, 40
+  offset: 0, 0
+  index: -1
+Smile_Mouth
+  rotate: false
+  xy: 1588, 1392
+  size: 359, 208
+  orig: 359, 208
+  offset: 0, 0
+  index: -1
+Surprise_Mouth
+  rotate: 180
+  xy: 2, 1391
+  size: 359, 191
+  orig: 359, 191
+  offset: 0, 0
+  index: -1
+Sweat
+  rotate: false
+  xy: 705, 1769
+  size: 32, 91
+  orig: 32, 91
+  offset: 0, 0
+  index: -1
+Tail
+  rotate: false
+  xy: 1634, 1660
+  size: 356, 369
+  orig: 356, 369
+  offset: 0, 0
+  index: -1
+TailB
+  rotate: 180
+  xy: 647, 1387
+  size: 502, 206
+  orig: 502, 206
+  offset: 0, 0
+  index: -1
