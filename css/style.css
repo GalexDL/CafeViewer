@@ -262,8 +262,7 @@
     margin-left: 690px;
 }
 .ShinyButton:hover {
-    width: 90px;
-    height: 90px;
+    filter: sepia(100%) saturate(300%) brightness(70%) hue-rotate(180deg);
 }
 .AnimLoops{
     margin-top: 569px;
@@ -591,7 +590,7 @@
     }
     .PokeName {
         margin-top: 10px;
-        margin-left: 960px;
+        margin-left: 1100px;
     }
     .Image-ButtonGM {
         margin-top: 220px;
