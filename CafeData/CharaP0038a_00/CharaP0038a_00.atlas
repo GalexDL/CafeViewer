@@ -1,0 +1,258 @@
+
+CharaP0038a_00.png
+size: 2048,2048
+format: RGBA8888
+filter: MipMap,MipMap
+repeat: none
+Body
+  rotate: false
+  xy: 437, 873
+  size: 347, 335
+  orig: 347, 335
+  offset: 0, 0
+  index: -1
+ChestHair
+  rotate: true
+  xy: 2, 198
+  size: 227, 226
+  orig: 227, 226
+  offset: 0, 0
+  index: -1
+Color_Scarf
+  rotate: false
+  xy: 754, 252
+  size: 156, 198
+  orig: 156, 198
+  offset: 0, 0
+  index: -1
+Color_ScarfLight
+  rotate: false
+  xy: 763, 536
+  size: 156, 198
+  orig: 156, 198
+  offset: 0, 0
+  index: -1
+Color_ScarfMark
+  rotate: true
+  xy: 298, 3
+  size: 156, 198
+  orig: 156, 198
+  offset: 0, 0
+  index: -1
+Ear_L_A
+  rotate: false
+  xy: 664, 690
+  size: 72, 117
+  orig: 72, 117
+  offset: 0, 0
+  index: -1
+Ear_L_B
+  rotate: false
+  xy: 162, 1159
+  size: 38, 49
+  orig: 38, 49
+  offset: 0, 0
+  index: -1
+Ear_R_A
+  rotate: false
+  xy: 80, 541
+  size: 107, 142
+  orig: 107, 142
+  offset: 0, 0
+  index: -1
+Ear_R_B
+  rotate: false
+  xy: 146, 1080
+  size: 47, 56
+  orig: 47, 56
+  offset: 0, 0
+  index: -1
+Eye_L_A
+  rotate: false
+  xy: 2, 1080
+  size: 22, 64
+  orig: 22, 64
+  offset: 0, 0
+  index: -1
+Eye_L_B
+  rotate: false
+  xy: 195, 1136
+  size: 25, 29
+  orig: 25, 29
+  offset: 0, 0
+  index: -1
+Eye_L_C
+  rotate: false
+  xy: 81, 1044
+  size: 20, 34
+  orig: 20, 34
+  offset: 0, 0
+  index: -1
+Eye_L_D
+  rotate: false
+  xy: 2, 1145
+  size: 23, 64
+  orig: 23, 64
+  offset: 0, 0
+  index: -1
+Eye_R_A
+  rotate: false
+  xy: 83, 1118
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1
+Eye_R_B
+  rotate: false
+  xy: 26, 1162
+  size: 80, 47
+  orig: 80, 47
+  offset: 0, 0
+  index: -1
+Eye_R_C
+  rotate: false
+  xy: 2, 985
+  size: 83, 43
+  orig: 83, 43
+  offset: 0, 0
+  index: -1
+Eye_R_D
+  rotate: false
+  xy: 2, 1001
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1
+Hair_L
+  rotate: true
+  xy: 2, 47
+  size: 112, 316
+  orig: 112, 316
+  offset: 0, 0
+  index: -1
+Hair_M_1
+  rotate: false
+  xy: 2, 325
+  size: 566, 362
+  orig: 639, 362
+  offset: 73, 0
+  index: -1
+Hair_M_2
+  rotate: false
+  xy: 442, 66
+  size: 228, 172
+  orig: 228, 172
+  offset: 0, 0
+  index: -1
+Hair_R
+  rotate: false
+  xy: 702, 332
+  size: 140, 403
+  orig: 140, 403
+  offset: 0, 0
+  index: -1
+Head
+  rotate: 180
+  xy: 559, 238
+  size: 222, 199
+  orig: 222, 199
+  offset: 0, 0
+  index: -1
+Leg_L_A
+  rotate: false
+  xy: 356, 972
+  size: 76, 236
+  orig: 76, 236
+  offset: 0, 0
+  index: -1
+Leg_L_B
+  rotate: 270
+  xy: 566, 145
+  size: 115, 258
+  orig: 115, 258
+  offset: 0, 0
+  index: -1
+Leg_R_A
+  rotate: false
+  xy: 750, 737
+  size: 98, 290
+  orig: 98, 290
+  offset: 0, 0
+  index: -1
+Leg_R_B
+  rotate: true
+  xy: 229, 201
+  size: 110, 335
+  orig: 110, 335
+  offset: 0, 0
+  index: -1
+Mouth_A
+  rotate: false
+  xy: 244, 1182
+  size: 62, 26
+  orig: 62, 26
+  offset: 0, 0
+  index: -1
+Mouth_B
+  rotate: false
+  xy: 2, 937
+  size: 65, 24
+  orig: 65, 24
+  offset: 0, 0
+  index: -1
+Mouth_C
+  rotate: false
+  xy: 2, 953
+  size: 63, 31
+  orig: 63, 31
+  offset: 0, 0
+  index: -1
+Mouth_D
+  rotate: false
+  xy: 152, 1138
+  size: 45, 17
+  orig: 45, 17
+  offset: 0, 0
+  index: -1
+Nose
+  rotate: false
+  xy: 2, 9
+  size: 144, 70
+  orig: 144, 70
+  offset: 0, 0
+  index: -1
+Scarf_Shadow
+  rotate: false
+  xy: 727, 74
+  size: 160, 193
+  orig: 160, 200
+  offset: 0, 0
+  index: -1
+Sweat
+  rotate: false
+  xy: 184, 618
+  size: 40, 116
+  orig: 40, 116
+  offset: 0, 0
+  index: -1
+Tail_A
+  rotate: false
+  xy: 2, 539
+  size: 663, 669
+  orig: 663, 669
+  offset: 0, 0
+  index: -1
+Tail_B
+  rotate: true
+  xy: 462, 432
+  size: 320, 313
+  orig: 320, 313
+  offset: 0, 0
+  index: -1
+Template/Shadow
+  rotate: false
+  xy: 2, 161
+  size: 438, 35
+  orig: 438, 35
+  offset: 0, 0
+  index: -1

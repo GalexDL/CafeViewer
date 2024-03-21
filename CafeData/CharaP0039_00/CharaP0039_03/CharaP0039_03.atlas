@@ -1,0 +1,307 @@
+
+CharaP0039_03.png
+size: 1024,1024
+format: RGBA8888
+filter: MipMap,MipMap
+repeat: none
+Body
+  rotate: 270
+  xy: 628, 298
+  size: 427, 394
+  orig: 427, 394
+  offset: 0, 0
+  index: -1
+Hair
+  rotate: false
+  xy: 645, 858
+  size: 156, 164
+  orig: 156, 164
+  offset: 0, 0
+  index: -1
+Hat1
+  rotate: false
+  xy: 865, 786
+  size: 157, 145
+  orig: 157, 145
+  offset: 0, 0
+  index: -1
+Hat2
+  rotate: true
+  xy: 33, 136
+  size: 84, 96
+  orig: 84, 96
+  offset: 0, 0
+  index: -1
+L_Arm
+  rotate: true
+  xy: 2, 515
+  size: 87, 72
+  orig: 89, 72
+  offset: 0, 0
+  index: -1
+L_Arm_Shadow
+  rotate: false
+  xy: 645, 683
+  size: 72, 42
+  orig: 74, 42
+  offset: 0, 0
+  index: -1
+L_Ear
+  rotate: false
+  xy: 168, 335
+  size: 140, 137
+  orig: 140, 137
+  offset: 0, 0
+  index: -1
+L_Eye_A
+  rotate: false
+  xy: 540, 314
+  size: 108, 123
+  orig: 108, 123
+  offset: 0, 0
+  index: -1
+L_Eye_B
+  rotate: false
+  xy: 431, 306
+  size: 107, 105
+  orig: 107, 119
+  offset: 0, 14
+  index: -1
+L_Eye_C
+  rotate: false
+  xy: 2, 206
+  size: 107, 96
+  orig: 107, 115
+  offset: 0, 19
+  index: -1
+L_Foot
+  rotate: 180
+  xy: 688, 210
+  size: 122, 80
+  orig: 123, 81
+  offset: 0, 1
+  index: -1
+L_Foot_Bottom
+  rotate: 180
+  xy: 541, 170
+  size: 116, 84
+  orig: 116, 84
+  offset: 0, 0
+  index: -1
+L_Pupil_A
+  rotate: true
+  xy: 498, 235
+  size: 86, 105
+  orig: 86, 105
+  offset: 0, 0
+  index: -1
+L_Pupil_D
+  rotate: true
+  xy: 921, 173
+  size: 80, 96
+  orig: 80, 96
+  offset: 0, 0
+  index: -1
+Lease_B
+  rotate: false
+  xy: 2, 603
+  size: 641, 419
+  orig: 641, 419
+  offset: 0, 0
+  index: -1
+Lease_F
+  rotate: false
+  xy: 2, 361
+  size: 604, 241
+  orig: 604, 241
+  offset: 0, 0
+  index: -1
+Mouth_A
+  rotate: false
+  xy: 107, 120
+  size: 97, 64
+  orig: 97, 64
+  offset: 0, 0
+  index: -1
+Mouth_B
+  rotate: false
+  xy: 861, 994
+  size: 89, 29
+  orig: 90, 32
+  offset: 0, 0
+  index: -1
+Mouth_C
+  rotate: false
+  xy: 415, 191
+  size: 97, 92
+  orig: 97, 92
+  offset: 0, 0
+  index: -1
+Mouth_D
+  rotate: false
+  xy: 861, 142
+  size: 63, 78
+  orig: 63, 78
+  offset: 0, 0
+  index: -1
+Mouth_E
+  rotate: false
+  xy: 282, 108
+  size: 113, 62
+  orig: 113, 62
+  offset: 0, 0
+  index: -1
+Nuts_L
+  rotate: true
+  xy: 298, 163
+  size: 77, 79
+  orig: 77, 79
+  offset: 0, 0
+  index: -1
+Nuts_Leaf_L1
+  rotate: true
+  xy: 926, 118
+  size: 53, 76
+  orig: 53, 76
+  offset: 0, 0
+  index: -1
+Nuts_Leaf_L2
+  rotate: false
+  xy: 653, 151
+  size: 74, 56
+  orig: 74, 56
+  offset: 0, 0
+  index: -1
+Nuts_Leaf_R1
+  rotate: false
+  xy: 493, 107
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+Nuts_Leaf_R2
+  rotate: false
+  xy: 590, 110
+  size: 61, 61
+  orig: 61, 61
+  offset: 0, 0
+  index: -1
+Nuts_R
+  rotate: true
+  xy: 766, 159
+  size: 58, 89
+  orig: 58, 89
+  offset: 0, 0
+  index: -1
+R_Arm
+  rotate: 270
+  xy: 919, 255
+  size: 104, 103
+  orig: 104, 103
+  offset: 0, 0
+  index: -1
+R_Arm_2
+  rotate: 270
+  xy: 334, 242
+  size: 104, 103
+  orig: 104, 103
+  offset: 0, 0
+  index: -1
+R_Arm_Shadow
+  rotate: 180
+  xy: 552, 523
+  size: 72, 79
+  orig: 72, 79
+  offset: 0, 0
+  index: -1
+R_Ear
+  rotate: false
+  xy: 749, 747
+  size: 141, 138
+  orig: 162, 165
+  offset: 21, 0
+  index: -1
+R_Eye_A
+  rotate: false
+  xy: 305, 342
+  size: 129, 126
+  orig: 144, 126
+  offset: 12, 0
+  index: -1
+R_Eye_B
+  rotate: true
+  xy: 645, 724
+  size: 132, 103
+  orig: 132, 120
+  offset: 0, 17
+  index: -1
+R_Eye_C
+  rotate: 180
+  xy: 897, 685
+  size: 125, 109
+  orig: 127, 120
+  offset: 0, 11
+  index: -1
+R_Foot
+  rotate: false
+  xy: 167, 165
+  size: 120, 49
+  orig: 120, 50
+  offset: 0, 1
+  index: -1
+R_Foot_Bottom
+  rotate: false
+  xy: 379, 161
+  size: 117, 48
+  orig: 117, 48
+  offset: 0, 0
+  index: -1
+R_Pupil_A
+  rotate: 270
+  xy: 620, 246
+  size: 96, 102
+  orig: 96, 102
+  offset: 0, 0
+  index: -1
+R_Pupil_D
+  rotate: false
+  xy: 111, 208
+  size: 89, 94
+  orig: 89, 94
+  offset: 0, 0
+  index: -1
+Ribbon1
+  rotate: false
+  xy: 803, 898
+  size: 217, 125
+  orig: 217, 125
+  offset: 0, 0
+  index: -1
+Ribbon_L
+  rotate: true
+  xy: 196, 208
+  size: 93, 113
+  orig: 93, 113
+  offset: 0, 0
+  index: -1
+Ribbon_R
+  rotate: true
+  xy: 811, 219
+  size: 89, 108
+  orig: 89, 108
+  offset: 0, 0
+  index: -1
+Shadow
+  rotate: false
+  xy: 2, 303
+  size: 343, 30
+  orig: 343, 30
+  offset: 0, 0
+  index: -1
+Sweat
+  rotate: false
+  xy: 735, 127
+  size: 29, 82
+  orig: 29, 82
+  offset: 0, 0
+  index: -1
