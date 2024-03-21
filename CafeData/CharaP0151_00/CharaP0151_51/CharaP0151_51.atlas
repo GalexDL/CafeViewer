@@ -1,0 +1,286 @@
+
+CharaP0151_51.png
+size: 1024,1024
+format: RGBA8888
+filter: MipMap,MipMap
+repeat: none
+Body
+  rotate: false
+  xy: 552, 689
+  size: 199, 139
+  orig: 199, 139
+  offset: 0, 0
+  index: -1
+Cap
+  rotate: true
+  xy: 741, 803
+  size: 219, 160
+  orig: 219, 160
+  offset: 0, 0
+  index: -1
+Cap_Shadow
+  rotate: false
+  xy: 714, 604
+  size: 214, 122
+  orig: 214, 122
+  offset: 0, 0
+  index: -1
+Carabiner
+  rotate: false
+  xy: 930, 620
+  size: 91, 74
+  orig: 91, 74
+  offset: 0, 0
+  index: -1
+Eff_Aura
+  rotate: false
+  xy: 2, 710
+  size: 326, 312
+  orig: 326, 312
+  offset: 0, 0
+  index: -1
+Eff_Aura_Obj
+  rotate: true
+  xy: 137, 442
+  size: 140, 73
+  orig: 140, 73
+  offset: 0, 0
+  index: -1
+Head
+  rotate: true
+  xy: 330, 738
+  size: 284, 240
+  orig: 284, 240
+  offset: 0, 0
+  index: -1
+L_Arm
+  rotate: 270
+  xy: 215, 361
+  size: 38, 109
+  orig: 38, 109
+  offset: 0, 0
+  index: -1
+L_Ear
+  rotate: false
+  xy: 556, 403
+  size: 101, 84
+  orig: 101, 84
+  offset: 0, 0
+  index: -1
+L_Eye_A
+  rotate: true
+  xy: 714, 481
+  size: 85, 127
+  orig: 85, 127
+  offset: 0, 0
+  index: -1
+L_Eye_B
+  rotate: true
+  xy: 107, 355
+  size: 55, 106
+  orig: 55, 106
+  offset: 0, 0
+  index: -1
+L_Eye_C
+  rotate: false
+  xy: 492, 374
+  size: 62, 112
+  orig: 62, 112
+  offset: 0, 0
+  index: -1
+L_Eye_D
+  rotate: true
+  xy: 2, 498
+  size: 85, 134
+  orig: 85, 134
+  offset: 0, 0
+  index: -1
+L_Foot
+  rotate: false
+  xy: 224, 613
+  size: 49, 92
+  orig: 49, 92
+  offset: 0, 0
+  index: -1
+L_Leg
+  rotate: false
+  xy: 2, 404
+  size: 103, 91
+  orig: 103, 91
+  offset: 0, 0
+  index: -1
+Mouth
+  rotate: false
+  xy: 350, 536
+  size: 122, 68
+  orig: 122, 68
+  offset: 0, 0
+  index: -1
+Parker_Arm_L
+  rotate: false
+  xy: 753, 716
+  size: 51, 103
+  orig: 51, 103
+  offset: 0, 0
+  index: -1
+Parker_Arm_R_01
+  rotate: false
+  xy: 789, 372
+  size: 120, 115
+  orig: 120, 115
+  offset: 0, 0
+  index: -1
+Parker_Arm_R_02
+  rotate: false
+  xy: 728, 361
+  size: 66, 53
+  orig: 66, 53
+  offset: 0, 0
+  index: -1
+Parker_Body
+  rotate: 180
+  xy: 843, 696
+  size: 179, 143
+  orig: 179, 143
+  offset: 0, 0
+  index: -1
+Parker_Collar_B01
+  rotate: 180
+  xy: 570, 358
+  size: 183, 131
+  orig: 183, 131
+  offset: 0, 0
+  index: -1
+Parker_Collar_B02
+  rotate: 270
+  xy: 274, 605
+  size: 143, 190
+  orig: 143, 190
+  offset: 0, 0
+  index: -1
+Parker_Collar_L
+  rotate: false
+  xy: 414, 379
+  size: 77, 108
+  orig: 77, 108
+  offset: 0, 0
+  index: -1
+Parker_Collar_R
+  rotate: false
+  xy: 462, 706
+  size: 88, 45
+  orig: 88, 45
+  offset: 0, 0
+  index: -1
+Parker_Zipper
+  rotate: false
+  xy: 805, 754
+  size: 34, 54
+  orig: 34, 54
+  offset: 0, 0
+  index: -1
+Pumpkin
+  rotate: true
+  xy: 571, 829
+  size: 193, 168
+  orig: 193, 168
+  offset: 0, 0
+  index: -1
+R_Arm
+  rotate: true
+  xy: 905, 381
+  size: 69, 117
+  orig: 69, 117
+  offset: 0, 0
+  index: -1
+R_Ear
+  rotate: true
+  xy: 890, 461
+  size: 105, 117
+  orig: 105, 117
+  offset: 0, 0
+  index: -1
+R_Eye_A
+  rotate: false
+  xy: 115, 584
+  size: 107, 125
+  orig: 107, 125
+  offset: 0, 0
+  index: -1
+R_Eye_B
+  rotate: false
+  xy: 317, 391
+  size: 95, 96
+  orig: 95, 96
+  offset: 0, 0
+  index: -1
+R_Eye_C
+  rotate: true
+  xy: 212, 412
+  size: 99, 103
+  orig: 99, 103
+  offset: 0, 0
+  index: -1
+R_Eye_D
+  rotate: false
+  xy: 903, 889
+  size: 104, 133
+  orig: 104, 133
+  offset: 0, 0
+  index: -1
+R_Foot
+  rotate: true
+  xy: 517, 635
+  size: 47, 107
+  orig: 47, 107
+  offset: 0, 0
+  index: -1
+R_Foot_Apron_Shadow
+  rotate: true
+  xy: 898, 841
+  size: 46, 106
+  orig: 46, 106
+  offset: 0, 0
+  index: -1
+R_Leg
+  rotate: true
+  xy: 224, 513
+  size: 96, 124
+  orig: 96, 124
+  offset: 0, 0
+  index: -1
+Shadow
+  rotate: false
+  xy: 350, 488
+  size: 343, 30
+  orig: 343, 30
+  offset: 0, 0
+  index: -1
+Sweat
+  rotate: false
+  xy: 858, 484
+  size: 26, 81
+  orig: 26, 81
+  offset: 0, 0
+  index: -1
+TOMATO
+  rotate: false
+  xy: 2, 586
+  size: 111, 122
+  orig: 111, 122
+  offset: 0, 0
+  index: -1
+Tail
+  rotate: 180
+  xy: 455, 520
+  size: 240, 190
+  orig: 240, 190
+  offset: 0, 0
+  index: -1
+TaleB
+  rotate: false
+  xy: 533, 555
+  size: 473, 47
+  orig: 473, 47
+  offset: 0, 0
+  index: -1
