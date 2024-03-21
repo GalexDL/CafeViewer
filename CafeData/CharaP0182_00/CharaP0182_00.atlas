@@ -1,0 +1,251 @@
+
+CharaP0182_00.png
+size: 1024,1024
+format: RGBA8888
+filter: MipMap,MipMap
+repeat: none
+Color_Scarf
+  rotate: false
+  xy: 479, 546
+  size: 163, 114
+  orig: 163, 114
+  offset: 0, 0
+  index: -1
+Color_ScarfLight
+  rotate: false
+  xy: 643, 544
+  size: 163, 114
+  orig: 163, 114
+  offset: 0, 0
+  index: -1
+Color_ScarfMark
+  rotate: false
+  xy: 708, 834
+  size: 37, 34
+  orig: 163, 114
+  offset: 101, 11
+  index: -1
+Head
+  rotate: true
+  xy: 235, 843
+  size: 179, 282
+  orig: 179, 282
+  offset: 0, 0
+  index: -1
+L_Arm
+  rotate: 180
+  xy: 867, 589
+  size: 139, 85
+  orig: 139, 85
+  offset: 0, 0
+  index: -1
+L_Eye_A
+  rotate: false
+  xy: 554, 988
+  size: 24, 34
+  orig: 24, 34
+  offset: 0, 0
+  index: -1
+L_Eye_B
+  rotate: false
+  xy: 790, 1008
+  size: 25, 14
+  orig: 25, 14
+  offset: 0, 0
+  index: -1
+L_Eye_C
+  rotate: false
+  xy: 235, 1010
+  size: 24, 12
+  orig: 24, 12
+  offset: 0, 0
+  index: -1
+L_Eye_D
+  rotate: false
+  xy: 823, 777
+  size: 24, 33
+  orig: 24, 33
+  offset: 0, 0
+  index: -1
+L_Hair
+  rotate: 180
+  xy: 745, 808
+  size: 164, 215
+  orig: 164, 215
+  offset: 0, 0
+  index: -1
+L_Leaf
+  rotate: true
+  xy: 339, 724
+  size: 122, 194
+  orig: 122, 194
+  offset: 0, 0
+  index: -1
+L_Petal
+  rotate: 270
+  xy: 535, 691
+  size: 143, 197
+  orig: 143, 197
+  offset: 0, 0
+  index: -1
+Leaves_A
+  rotate: 270
+  xy: 87, 609
+  size: 86, 153
+  orig: 86, 153
+  offset: 0, 0
+  index: -1
+Leaves_B
+  rotate: true
+  xy: 242, 647
+  size: 86, 151
+  orig: 86, 151
+  offset: 0, 0
+  index: -1
+Leaves_C
+  rotate: false
+  xy: 2, 648
+  size: 79, 158
+  orig: 79, 158
+  offset: 0, 0
+  index: -1
+Leaves_D
+  rotate: true
+  xy: 680, 743
+  size: 81, 139
+  orig: 81, 139
+  offset: 0, 0
+  index: -1
+M_Petal
+  rotate: true
+  xy: 419, 643
+  size: 94, 187
+  orig: 94, 187
+  offset: 0, 0
+  index: -1
+Megaphone
+  rotate: false
+  xy: 2, 808
+  size: 231, 214
+  orig: 231, 214
+  offset: 0, 0
+  index: -1
+Mouth_A
+  rotate: false
+  xy: 754, 988
+  size: 34, 34
+  orig: 34, 34
+  offset: 0, 0
+  index: -1
+Mouth_B
+  rotate: false
+  xy: 990, 942
+  size: 29, 10
+  orig: 29, 10
+  offset: 0, 0
+  index: -1
+Mouth_C
+  rotate: false
+  xy: 518, 984
+  size: 34, 38
+  orig: 34, 38
+  offset: 0, 0
+  index: -1
+Mouth_D
+  rotate: false
+  xy: 717, 996
+  size: 23, 26
+  orig: 23, 26
+  offset: 0, 0
+  index: -1
+Mouth_E
+  rotate: false
+  xy: 417, 1004
+  size: 30, 18
+  orig: 30, 18
+  offset: 0, 0
+  index: -1
+R_Arm
+  rotate: false
+  xy: 903, 904
+  size: 105, 119
+  orig: 105, 119
+  offset: 0, 0
+  index: -1
+R_Eye_A
+  rotate: false
+  xy: 911, 889
+  size: 33, 32
+  orig: 33, 32
+  offset: 0, 0
+  index: -1
+R_Eye_B
+  rotate: false
+  xy: 449, 1007
+  size: 32, 15
+  orig: 32, 15
+  offset: 0, 0
+  index: -1
+R_Eye_C
+  rotate: false
+  xy: 483, 1009
+  size: 32, 13
+  orig: 32, 13
+  offset: 0, 0
+  index: -1
+R_Eye_D
+  rotate: false
+  xy: 235, 828
+  size: 32, 33
+  orig: 32, 33
+  offset: 0, 0
+  index: -1
+R_Hair
+  rotate: 270
+  xy: 517, 832
+  size: 191, 242
+  orig: 191, 242
+  offset: 0, 0
+  index: -1
+R_Leaf
+  rotate: 270
+  xy: 827, 720
+  size: 166, 195
+  orig: 166, 195
+  offset: 0, 0
+  index: -1
+R_Leaf_Shadow
+  rotate: false
+  xy: 789, 555
+  size: 117, 102
+  orig: 117, 102
+  offset: 0, 0
+  index: -1
+R_Petal
+  rotate: 270
+  xy: 137, 680
+  size: 169, 177
+  orig: 169, 177
+  offset: 0, 0
+  index: -1
+Shadow
+  rotate: false
+  xy: 604, 659
+  size: 343, 30
+  orig: 343, 30
+  offset: 0, 0
+  index: -1
+Sweat
+  rotate: false
+  xy: 983, 954
+  size: 23, 68
+  orig: 23, 68
+  offset: 0, 0
+  index: -1
+Tie_Shadow
+  rotate: false
+  xy: 281, 557
+  size: 167, 117
+  orig: 167, 117
+  offset: 0, 0
+  index: -1
