@@ -1,0 +1,167 @@
+
+CharaP0233_00.png
+size: 1024,1024
+format: RGBA8888
+filter: MipMap,MipMap
+repeat: none
+Body
+  rotate: true
+  xy: 289, 731
+  size: 292, 212
+  orig: 292, 212
+  offset: 0, 0
+  index: -1
+Cap_Shadow
+  rotate: false
+  xy: 20, 616
+  size: 177, 45
+  orig: 177, 45
+  offset: 0, 0
+  index: -1
+Color_Cap
+  rotate: false
+  xy: 546, 669
+  size: 199, 91
+  orig: 199, 91
+  offset: 0, 0
+  index: -1
+Color_CapLight
+  rotate: false
+  xy: 747, 669
+  size: 199, 91
+  orig: 199, 91
+  offset: 0, 0
+  index: -1
+Color_Scarf
+  rotate: true
+  xy: 146, 603
+  size: 141, 175
+  orig: 141, 175
+  offset: 0, 0
+  index: -1
+Color_ScarfBack
+  rotate: false
+  xy: 244, 992
+  size: 63, 30
+  orig: 63, 30
+  offset: 0, 0
+  index: -1
+Color_ScarfLight
+  rotate: false
+  xy: 881, 590
+  size: 141, 175
+  orig: 141, 175
+  offset: 0, 0
+  index: -1
+Color_ScarfMark
+  rotate: 270
+  xy: 723, 567
+  size: 141, 175
+  orig: 141, 175
+  offset: 0, 0
+  index: -1
+Eye_L_AC
+  rotate: false
+  xy: 537, 923
+  size: 36, 100
+  orig: 36, 100
+  offset: 0, 0
+  index: -1
+Eye_L_B
+  rotate: false
+  xy: 986, 829
+  size: 36, 100
+  orig: 36, 100
+  offset: 0, 0
+  index: -1
+Eye_L_D
+  rotate: false
+  xy: 503, 822
+  size: 36, 100
+  orig: 36, 100
+  offset: 0, 0
+  index: -1
+Eye_R_AC
+  rotate: 270
+  xy: 437, 632
+  size: 107, 142
+  orig: 107, 142
+  offset: 0, 0
+  index: -1
+Eye_R_B
+  rotate: 270
+  xy: 213, 671
+  size: 107, 142
+  orig: 107, 142
+  offset: 0, 0
+  index: -1
+Eye_R_D
+  rotate: 270
+  xy: 2, 662
+  size: 107, 142
+  orig: 107, 142
+  offset: 0, 0
+  index: -1
+Head
+  rotate: false
+  xy: 2, 762
+  size: 286, 260
+  orig: 286, 260
+  offset: 0, 0
+  index: -1
+Leg_L
+  rotate: true
+  xy: 792, 813
+  size: 210, 117
+  orig: 210, 117
+  offset: 0, 0
+  index: -1
+Leg_R
+  rotate: true
+  xy: 673, 798
+  size: 225, 117
+  orig: 225, 117
+  offset: 0, 0
+  index: -1
+Mouth
+  rotate: true
+  xy: 911, 827
+  size: 195, 101
+  orig: 195, 101
+  offset: 0, 0
+  index: -1
+Neck
+  rotate: false
+  xy: 578, 595
+  size: 84, 78
+  orig: 84, 78
+  offset: 0, 0
+  index: -1
+Scarf_Shadow
+  rotate: false
+  xy: 308, 581
+  size: 100, 148
+  orig: 100, 148
+  offset: 0, 0
+  index: -1
+Sweat
+  rotate: false
+  xy: 500, 925
+  size: 35, 97
+  orig: 35, 97
+  offset: 0, 0
+  index: -1
+Tail
+  rotate: 180
+  xy: 492, 738
+  size: 181, 284
+  orig: 181, 284
+  offset: 0, 0
+  index: -1
+Template/Shadow
+  rotate: false
+  xy: 569, 761
+  size: 438, 35
+  orig: 438, 35
+  offset: 0, 0
+  index: -1

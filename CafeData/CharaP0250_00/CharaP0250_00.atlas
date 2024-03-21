@@ -1,0 +1,265 @@
+
+CharaP0250_00.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Apron_Shadow_L
+  rotate: false
+  xy: 820, 1954
+  size: 93, 92
+  orig: 94, 92
+  offset: 0, 0
+  index: -1
+Apron_Shadow_R
+  rotate: false
+  xy: 2, 1981
+  size: 66, 65
+  orig: 66, 66
+  offset: 0, 0
+  index: -1
+Body_A
+  rotate: 180
+  xy: 1232, 1125
+  size: 503, 921
+  orig: 503, 921
+  offset: 0, 0
+  index: -1
+Body_B
+  rotate: false
+  xy: 1796, 1342
+  size: 250, 268
+  orig: 250, 268
+  offset: 0, 0
+  index: -1
+Color_Apron
+  rotate: 270
+  xy: 1534, 1538
+  size: 508, 383
+  orig: 508, 383
+  offset: 0, 0
+  index: -1
+Color_ApronBack
+  rotate: false
+  xy: 1028, 600
+  size: 427, 120
+  orig: 427, 120
+  offset: 0, 0
+  index: -1
+Color_ApronLight
+  rotate: 180
+  xy: 1470, 859
+  size: 508, 383
+  orig: 508, 383
+  offset: 0, 0
+  index: -1
+Color_ApronMark
+  rotate: 180
+  xy: 319, 703
+  size: 508, 383
+  orig: 508, 383
+  offset: 0, 0
+  index: -1
+Color_Band
+  rotate: true
+  xy: 557, 1019
+  size: 401, 131
+  orig: 401, 131
+  offset: 0, 0
+  index: -1
+Color_BandLight
+  rotate: 180
+  xy: 1515, 549
+  size: 401, 131
+  orig: 401, 131
+  offset: 0, 0
+  index: -1
+Color_BandPattern
+  rotate: 180
+  xy: 950, 511
+  size: 401, 131
+  orig: 401, 131
+  offset: 0, 0
+  index: -1
+Color_Ribbon
+  rotate: false
+  xy: 723, 1101
+  size: 136, 107
+  orig: 136, 107
+  offset: 0, 0
+  index: -1
+Color_RibbonLight
+  rotate: false
+  xy: 51, 1099
+  size: 136, 107
+  orig: 136, 107
+  offset: 0, 0
+  index: -1
+Color_RibbonPattern
+  rotate: false
+  xy: 28, 997
+  size: 136, 107
+  orig: 136, 107
+  offset: 0, 0
+  index: -1
+Eye_A
+  rotate: false
+  xy: 201, 1952
+  size: 99, 95
+  orig: 99, 95
+  offset: 0, 0
+  index: -1
+Eye_B
+  rotate: false
+  xy: 1172, 2010
+  size: 90, 36
+  orig: 90, 36
+  offset: 0, 0
+  index: -1
+Eye_C
+  rotate: false
+  xy: 302, 2001
+  size: 87, 45
+  orig: 87, 45
+  offset: 0, 0
+  index: -1
+Eye_D
+  rotate: false
+  xy: 663, 1952
+  size: 99, 95
+  orig: 99, 95
+  offset: 0, 0
+  index: -1
+Hair_A
+  rotate: false
+  xy: 1829, 1771
+  size: 151, 275
+  orig: 151, 275
+  offset: 0, 0
+  index: -1
+Hair_B
+  rotate: false
+  xy: 1884, 503
+  size: 127, 283
+  orig: 127, 283
+  offset: 0, 0
+  index: -1
+Hair_C
+  rotate: false
+  xy: 1930, 1660
+  size: 116, 272
+  orig: 116, 272
+  offset: 0, 0
+  index: -1
+Hair_D
+  rotate: true
+  xy: 1700, 1382
+  size: 118, 220
+  orig: 118, 220
+  offset: 0, 0
+  index: -1
+Leg_L
+  rotate: true
+  xy: 524, 1168
+  size: 353, 296
+  orig: 353, 296
+  offset: 0, 0
+  index: -1
+Leg_R
+  rotate: true
+  xy: 1736, 1143
+  size: 216, 276
+  orig: 216, 276
+  offset: 0, 0
+  index: -1
+Mouth_1_ABD
+  rotate: false
+  xy: 1668, 699
+  size: 378, 221
+  orig: 378, 221
+  offset: 0, 0
+  index: -1
+Mouth_1_C
+  rotate: false
+  xy: 558, 553
+  size: 378, 221
+  orig: 378, 221
+  offset: 0, 0
+  index: -1
+Mouth_2_A
+  rotate: false
+  xy: 524, 1550
+  size: 181, 84
+  orig: 181, 84
+  offset: 0, 0
+  index: -1
+Mouth_2_B
+  rotate: false
+  xy: 1281, 519
+  size: 235, 164
+  orig: 235, 164
+  offset: 0, 0
+  index: -1
+Mouth_2_C
+  rotate: false
+  xy: 1272, 939
+  size: 220, 182
+  orig: 220, 182
+  offset: 0, 0
+  index: -1
+Mouth_2_D
+  rotate: false
+  xy: 2, 1848
+  size: 207, 198
+  orig: 207, 198
+  offset: 0, 0
+  index: -1
+Sweat
+  rotate: false
+  xy: 1925, 1923
+  size: 43, 123
+  orig: 43, 123
+  offset: 0, 0
+  index: -1
+Tail_A
+  rotate: true
+  xy: 793, 797
+  size: 560, 624
+  orig: 560, 624
+  offset: 0, 0
+  index: -1
+Tail_B
+  rotate: false
+  xy: 607, 1290
+  size: 654, 756
+  orig: 654, 756
+  offset: 0, 0
+  index: -1
+Template/Shadow
+  rotate: false
+  xy: 795, 563
+  size: 438, 35
+  orig: 438, 35
+  offset: 0, 0
+  index: -1
+Wing_L_A
+  rotate: 180
+  xy: 2, 497
+  size: 351, 504
+  orig: 351, 504
+  offset: 0, 0
+  index: -1
+Wing_L_B
+  rotate: 270
+  xy: 927, 583
+  size: 341, 823
+  orig: 341, 823
+  offset: 0, 0
+  index: -1
+Wing_R
+  rotate: false
+  xy: 2, 994
+  size: 700, 1053
+  orig: 700, 1053
+  offset: 0, 0
+  index: -1
