@@ -1,0 +1,293 @@
+
+CharaP0134_50.png
+size: 2048,2048
+format: RGBA8888
+filter: MipMap,MipMap
+repeat: none
+Body
+  rotate: false
+  xy: 385, 207
+  size: 341, 211
+  orig: 341, 211
+  offset: 0, 0
+  index: -1
+Collar
+  rotate: true
+  xy: 1531, 1245
+  size: 463, 437
+  orig: 463, 437
+  offset: 0, 0
+  index: -1
+Coral
+  rotate: true
+  xy: 895, 1244
+  size: 733, 634
+  orig: 733, 634
+  offset: 0, 0
+  index: -1
+Coral_Reverse
+  rotate: false
+  xy: 2, 624
+  size: 733, 618
+  orig: 733, 618
+  offset: 0, 0
+  index: -1
+Coral_Shadow
+  rotate: false
+  xy: 737, 626
+  size: 707, 616
+  orig: 707, 616
+  offset: 0, 0
+  index: -1
+Coral_Shadow_Reverse
+  rotate: true
+  xy: 1446, 538
+  size: 704, 599
+  orig: 704, 599
+  offset: 0, 0
+  index: -1
+Eye_L_AD
+  rotate: false
+  xy: 1568, 1245
+  size: 35, 72
+  orig: 35, 72
+  offset: 0, 0
+  index: -1
+Eye_L_B
+  rotate: false
+  xy: 1078, 1988
+  size: 33, 25
+  orig: 33, 25
+  offset: 0, 0
+  index: -1
+Eye_L_C
+  rotate: false
+  xy: 1882, 1651
+  size: 37, 67
+  orig: 37, 67
+  offset: 0, 0
+  index: -1
+Eye_R_AD
+  rotate: false
+  xy: 1047, 545
+  size: 84, 80
+  orig: 84, 80
+  offset: 0, 0
+  index: -1
+Eye_R_B
+  rotate: false
+  xy: 895, 1985
+  size: 80, 27
+  orig: 80, 27
+  offset: 0, 0
+  index: -1
+Eye_R_C
+  rotate: false
+  xy: 124, 53
+  size: 83, 71
+  orig: 83, 71
+  offset: 0, 0
+  index: -1
+Fin_L
+  rotate: true
+  xy: 1096, 424
+  size: 187, 203
+  orig: 187, 203
+  offset: 0, 0
+  index: -1
+Fin_M
+  rotate: true
+  xy: 392, 104
+  size: 109, 268
+  orig: 109, 268
+  offset: 0, 0
+  index: -1
+Fin_R
+  rotate: true
+  xy: 1459, 105
+  size: 176, 189
+  orig: 176, 189
+  offset: 0, 0
+  index: -1
+Head
+  rotate: 180
+  xy: 1030, 110
+  size: 264, 246
+  orig: 264, 246
+  offset: 0, 0
+  index: -1
+Head_Acc_1
+  rotate: false
+  xy: 1427, 398
+  size: 108, 139
+  orig: 108, 142
+  offset: 0, 0
+  index: -1
+Head_Acc_1_Reverse
+  rotate: false
+  xy: 1950, 1898
+  size: 93, 148
+  orig: 93, 151
+  offset: 0, 0
+  index: -1
+Head_Acc_2
+  rotate: false
+  xy: 1346, 1980
+  size: 68, 48
+  orig: 68, 48
+  offset: 0, 0
+  index: -1
+Head_Acc_2_1_Reverse
+  rotate: false
+  xy: 1207, 1984
+  size: 18, 28
+  orig: 18, 28
+  offset: 0, 0
+  index: -1
+Head_Acc_2_2_Reverse
+  rotate: false
+  xy: 1113, 1983
+  size: 43, 30
+  orig: 43, 30
+  offset: 0, 0
+  index: -1
+Head_Acc_Shadow
+  rotate: false
+  xy: 718, 320
+  size: 116, 98
+  orig: 116, 98
+  offset: 0, 0
+  index: -1
+Head_Acc_Shadow_Reverse
+  rotate: false
+  xy: 1531, 1614
+  size: 70, 104
+  orig: 70, 104
+  offset: 0, 0
+  index: -1
+Leg_L_A
+  rotate: false
+  xy: 652, 16
+  size: 98, 176
+  orig: 98, 176
+  offset: 0, 0
+  index: -1
+Leg_L_B
+  rotate: false
+  xy: 1306, 484
+  size: 89, 140
+  orig: 89, 140
+  offset: 0, 0
+  index: -1
+Leg_R_A
+  rotate: false
+  xy: 1923, 1567
+  size: 76, 171
+  orig: 76, 171
+  offset: 0, 0
+  index: -1
+Leg_R_B
+  rotate: false
+  xy: 880, 12
+  size: 129, 179
+  orig: 129, 179
+  offset: 0, 0
+  index: -1
+Mouth_A
+  rotate: false
+  xy: 1145, 1980
+  size: 64, 12
+  orig: 65, 12
+  offset: 1, 0
+  index: -1
+Mouth_B
+  rotate: false
+  xy: 977, 1982
+  size: 64, 31
+  orig: 64, 31
+  offset: 0, 0
+  index: -1
+Mouth_C
+  rotate: false
+  xy: 1282, 2004
+  size: 65, 41
+  orig: 65, 41
+  offset: 0, 0
+  index: -1
+Mouth_D
+  rotate: false
+  xy: 1043, 1985
+  size: 33, 27
+  orig: 33, 27
+  offset: 0, 0
+  index: -1
+Shell_B
+  rotate: false
+  xy: 2, 1244
+  size: 891, 801
+  orig: 891, 801
+  offset: 0, 0
+  index: -1
+Shell_F
+  rotate: false
+  xy: 2, 419
+  size: 818, 203
+  orig: 818, 203
+  offset: 0, 0
+  index: -1
+Star_B
+  rotate: false
+  xy: 2, 125
+  size: 381, 292
+  orig: 381, 292
+  offset: 0, 0
+  index: -1
+Star_F
+  rotate: false
+  xy: 1531, 1719
+  size: 417, 326
+  orig: 417, 326
+  offset: 0, 0
+  index: -1
+Sweat
+  rotate: false
+  xy: 1531, 1289
+  size: 35, 77
+  orig: 35, 77
+  offset: 0, 0
+  index: -1
+Tail
+  rotate: true
+  xy: 822, 195
+  size: 429, 636
+  orig: 429, 636
+  offset: 0, 0
+  index: -1
+Template/Shadow
+  rotate: false
+  xy: 895, 2014
+  size: 385, 31
+  orig: 385, 31
+  offset: 0, 0
+  index: -1
+effect_Soap_L
+  rotate: false
+  xy: 728, 114
+  size: 179, 179
+  orig: 179, 179
+  offset: 0, 0
+  index: -1
+effect_Soap_M
+  rotate: false
+  xy: 2, 3
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+effect_Soap_S
+  rotate: false
+  xy: 822, 483
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1

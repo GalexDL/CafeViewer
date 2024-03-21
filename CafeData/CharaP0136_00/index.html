@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Viewer</title>
+    <link rel="icon" type="image/x-icon"
+    href="../../favicon.ico"/>
+    <meta name="og:title" content="PKMN Cafe Sprite Viewer"/>
+	<meta property="og:url" content="https://galexdl.github.io/CafeViewer/" />
+	<meta name="keywords" content="caferemix"/>
+	<meta name="description" content="PKMN Cafe ReMix Sprite Viewer"/>
+    
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="../../css/style.css">
+
+    <!-- PIXI -->
+    <script src="../../js/pixi.js"></script>
+    <script src="../../js/pixi-spine.js"></script>
+
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.9.2/dist/css/uikit.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/gif.js/dist/gif.js"></script>
+
+
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.9.2/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.9.2/dist/js/uikit-icons.min.js"></script>
+
+    <!-- Main -->
+    <script src="main.js"></script>
+
+    <!-- Utility -->
+    <script src="../../js/utility.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gif.js/dist/gif.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gifshot/build/gifshot.min.js"></script>
+
+
+    <!-- Howler -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js" integrity="sha512-6+YN/9o9BWrk6wSfGxQGpt3EUK6XeHi6yeHV+TYD2GR0Sj/cggRpXr1BrAQf0as6XslxomMUxXp2vIl+fv0QRA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+<body>
+    <img class="CafeBackground" src="../../UI/BG.png" >
+
+    <nav class="uk-navbar-container" uk-navbar style="position: fixed;background: none;">
+        <div class="uk-navbar-left">
+    
+            <ul class="uk-navbar-nav">
+                <li class="uk-active">
+                    <button class="uk-button uk-button-default" type="button" uk-toggle="target: #sidebar-options"><span uk-icon="cog"></span></button>
+                </li>
+            </ul>
+    
+        </div>
+    </nav>
+    
+
+    <div id="sidebar-options" uk-offcanvas>
+        <div class="uk-offcanvas-bar">
+
+            <button class="uk-offcanvas-close" type="button" uk-close></button>
+            <h3>Pokemon Cafe Sprites</h3>
+            <p>Select/Type Pokemon</p>
+            <select class="uk-select" id="optionModels">
+            </select>
+            <p>Select Skin</p>
+            <select class="uk-select" id="optionSkins">
+            </select>
+            <ul uk-accordion>
+
+
+                            <div style="display: none;"class="uk-width-1-1">
+                                <button class="uk-button uk-button-default" id="optionScaleFit">Fit Scale</button>
+                                <button class="uk-button uk-button-default" id="optionScaleHalf">1/4 Scale</button>
+                            </div>
+                            <div style="display: none;"class="uk-width-1-1">
+                                <p>You can also move it by dragging.</p>
+                            </div>
+                            <div style="display: show;"class="uk-width-1-4 uk-margin">
+                                <p>X</p>
+                            </div>
+                            <div style="display: show;"class="uk-width-3-4">
+                                <input class="uk-input" type="number" min="0" step="10" id="optionX" enabled>
+                            </div>
+                            <div style="display: show;"class="uk-width-1-4 uk-margin">
+                                <p>Y</p>
+                            </div>
+                            <div style="display: show;"class="uk-width-3-4">
+                                <input class="uk-input" type="number" min="0" step="10" id="optionY" enabled>
+                            </div>
+            </ul>
+            <!-- Export Animation -->
+            <ul uk-accordion>
+                <li>
+                    <a class="uk-accordion-title" href="#">Export Animation</a>
+                    <div class="uk-accordion-content">
+                        <div class="uk-grid-small" uk-grid>
+                            <div class="uk-width-1-4 uk-margin">
+                                <p>FPS</p>
+                            </div>
+                            <div class="uk-width-3-4">
+                                <input class="uk-input" type="number" min="1" step="1" id="optionFPS" value="24">
+                            </div>
+                            <div class="uk-width-1-1">
+                                <p>File Type</p>
+                            </div>
+                            <div class="uk-width-1-1">
+                                <select class="uk-select" id="optionExportType">
+                                    <option value="video/mp4">.mp4</option>
+                                    <option value="video/webm">.webm</option>
+                                </select>
+                            </div>
+                            <div class="uk-width-1-1">
+                                <button class="uk-button uk-button-default" id="optionExport">Export</button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Main Canvas -->
+
+    <!-- ----------------------------------------------------------------------------------------------------------------------- -->
+
+    <div>
+        <!-- Main UI -->
+        <img class="CafeBackBorderBG" style="position: absolute" src="../../UI/borderbg.png" >
+        <canvas id="screen" class="PixiLoader"></canvas>
+        <img draggable="false" class="CafeBackBorder" style="width:400px; height:531; position: absolute;" src="../../UI/border.png" >
+        <img class="CafeBackMainBar" src="../../UI/mainbar.png" >
+        <img class="CafeBackMiniMainBar" src="../../UI/MainBarMini.png" >
+        <img class="CafeBackRelated" src="../../UI/related.png" >
+        <img class="CafeBackAnimation" src="../../UI/animation.png" >
+        <img class="CafeBackPokeName" src="../../UI/pokename.png" >
+        <button class="Exit" onclick="location.href='https://galexdl.github.io/CafeViewer/';" ><img src="../../UI/exit.png"></button>
+
+
+        <select class="AnimationContain" id="optionAnimations"></select>
+        <label><input class="AnimLoops" class="uk-checkbox" type="checkbox" id="optionLoop"> Loop</label>
+        <input class="AnimationContain2" type="number" min="0.01" step="0.01" id="optionScale">
+
+        <!-- Text -->
+        <p class="AnimScaleName">Animations/Scale</p>
+        <p class="RelatedName">Related</p>
+        <p class="PokeName">Eevee</p>
+
+        <!-- Buttons -->
+        <ul class="Icon-Contain">
+            <div style="display:flex;"><button class="Image-ButtonTwo" onclick = "NormalSkin()"><img src="IconP0136_00.png"></button></div>
+            <div style="display:flex;"><button class="Image-ButtonTwo" onclick = "Skin1()"><img src="IconP0136_08.png"></button></div>
+            <div style="display:flex;"><button class="Image-ButtonTwo" onclick = "Skin2()"><img src="IconP0136_09.png"></button></div>
+
+
+
+            <!-- Hats -->
+            <div><button class="Image-Button" onclick = "Clerk()"><img src="../../UI/WhiteHat.png"></button></div>
+            <div><button class="Image-Button" onclick = "RedClerk()"><img src="../../UI/RedHat.png"></button></div>
+            <div><button class="Image-Button" onclick = "GreenClerk()"><img src="../../UI/GreenHat.png"></button></div>
+            <div><button class="Image-Button" onclick = "YellowClerk()"><img src="../../UI/YellowHat.png"></button></div>
+            <div><button class="Image-Button" onclick = "BrownClerk()"><img src="../../UI/BrownHat.png"></button></div>
+            <div><button class="Image-Button" onclick = "BlueClerk()"><img src="../../UI/BlueHat.png"></button></div>
+            <div><button class="Image-Button" onclick = "PinkClerk()"><img src="../../UI/PinkHat.png"></button></div>
+            <div><button class="Image-Button" onclick = "GreyClerk()"><img src="../../UI/GreyHat.png"></button></div>
+            <div><button class="Image-Button" onclick = "PurpleClerk()"><img src="../../UI/PurpleHat.png"></button></div>
+            <div><button class="Image-Button" onclick = "OrangeClerk()"><img src="../../UI/OrangeHat.png"></button></div>
+            <div><button class="Image-Button" onclick = "BlackClerk()"><img src="../../UI/BlackHat.png"></button></div>
+        </ul>
+
+        <!-- Gender/Shiny Buttons -->
+        <div ><button class="Image-ButtonGM" onclick ="toggleMale()"><img src="../../UI/Item007.png"></button></div>
+        <div ><button class="Image-ButtonGF" onclick ="toggleFemale()"><img src="../../UI/Item008.png"></button></div>
+        <!--<div style="margin-top: 520px; margin-left: 680px; position: absolute;"><button style="width: 70px; height: 70px;" class="Image-Button" onclick = "toggleShiny()"><img src="../../UI/Item009.png"></button></div>-->
+        <div><label><input id="myCheck" type="checkbox" checked="false" class="Image-ButtonThree" onclick="toggleShiny()"><img class="ShinyButton" src="../../UI/Item009.png"></label></div>
+    </div>
+
+    <!-- ----------------------------------------------------------------------------------------------------------------------- -->
+
+    <!-- load it -->
+    <script>
+        let option = {
+            models: document.getElementById("optionModels"),
+            skins: document.getElementById("optionSkins"),
+            animations: document.getElementById("optionAnimations"),
+            colorr: document.getElementById("optionColors"),
+            loop: document.getElementById("optionLoop"),
+            talkSound: document.getElementById("optionTalkSound"),
+            scaleFit: document.getElementById("optionScaleFit"),
+            scaleHalf: document.getElementById("optionScaleHalf"),
+            scale: document.getElementById("optionScale"),
+            autoPos: document.getElementById("optionAutoPos"),
+            x: document.getElementById("optionX"),
+            y: document.getElementById("optionY"),
+            FPS: document.getElementById("optionFPS"),
+            export: document.getElementById("optionExport"),
+            exportType: document.getElementById("optionExportType") 
+        }
+
+        // Init models
+        let dataModels = JSON.parse(httpGet("models.json"))
+	    
+        for(var i in dataModels) {
+            let opt = document.createElement("option");
+            opt.value = dataModels[i];
+            opt.innerHTML = i;
+            option.models.appendChild(opt);
+        }
+
+        // Events
+        //option.models.onchange = function() {
+            //localStorage.setItem("blue-archive-res-model", this.value);
+            //loadChar(this.value)
+        //}
+
+        option.skins.onchange = function() {
+            setSkinByName(this.value);
+        }
+	    
+        option.animations.onchange = function() {
+            playAnimation(this.value);
+        }
+
+        //option.colorr.onchange = function() {
+            //setColor(this.value);
+        //}
+        option.loop.onchange = function() {
+            localStorage.setItem("blue-archive-res-loop", this.checked);
+            playAnimation(option.animations.value);
+        }
+
+        option.scaleFit.onclick = function() {
+            if(isCharacterLoaded)
+                char.scale.x = char.scale.y = option.scale.value = option.models.value.indexOf("_home") != -1 ? Math.max(app.renderer.height/char.spineData.height, app.renderer.width/char.spineData.width) : Math.min(app.renderer.height/char.spineData.height, app.renderer.width/char.spineData.width);
+        }
+        option.scaleHalf.onclick = function() {
+            if(isCharacterLoaded)
+                char.scale.x = char.scale.y = option.scale.value = 0.3;
+        }
+        option.scale.onchange = function() {
+            if(isCharacterLoaded)
+                char.scale.x = char.scale.y = Math.max(option.scale.value, 0);
+        }
+	    
+	option.scaleFit.ontouchend = function() {
+	    if(isCharacterLoaded)
+		char.scale.x = char.scale.y = option.scale.value = option.models.value.indexOf("_home") != -1 ? Math.max(app.renderer.height/char.spineData.height, app.renderer.width/char.spineData.width) : Math.min(app.renderer.height/char.spineData.height, app.renderer.width/char.spineData.width);
+	}
+
+	option.scaleHalf.ontouchend = function() {
+	    if(isCharacterLoaded)
+		char.scale.x = char.scale.y = option.scale.value = 0.2;
+	}
+
+	option.scale.onchange = function() {
+	    if(isCharacterLoaded)
+		char.scale.x = char.scale.y = option.scale.value;
+	}
+
+        option.x.onchange = function(e) {
+            if(isCharacterLoaded)
+                char.x = this.value;
+        }
+        option.y.onchange = function() {
+            if(isCharacterLoaded)
+                char.y = this.value;
+        }
+        option.export.onclick = function() {
+            exportAnimation(FPS=parseInt(option.FPS.value))
+        }
+
+	// Draggable Canvas
+	let canvasScreen = document.getElementById("screen");
+	let isDragging = false;
+	let canMouseX, canMouseY;
+	let initMouseX, initMouseY;
+	let canvasX, canvasY;
+
+	canvasScreen.addEventListener("mousedown", handleMouseDown);
+	canvasScreen.addEventListener("mouseup", handleMouseUp);
+	canvasScreen.addEventListener("mouseout", handleMouseOut);
+	canvasScreen.addEventListener("mousemove", handleMouseMove);
+
+	canvasScreen.addEventListener("touchstart", handleTouchStart);
+	canvasScreen.addEventListener("touchend", handleTouchEnd);
+	canvasScreen.addEventListener("touchmove", handleTouchMove);
+
+
+	function handleMouseDown(e) {
+	    e.preventDefault();
+	    canvasX = -char.x;
+	    canvasY = -char.y;
+	    initMouseX = parseInt(e.clientX - canvasX);
+	    initMouseY = parseInt(e.clientY - canvasY);
+	    isDragging = true;
+	}
+
+	function handleMouseUp(e) {
+	    isDragging = false;
+	}
+
+	function handleMouseOut(e) {
+	    isDragging = false;
+	}
+
+	function handleMouseMove(e) {
+	    canMouseX = parseInt(e.clientX - canvasX);
+	    canMouseY = parseInt(e.clientY - canvasY);
+	    if (
+		isDragging &&
+		(initMouseX - canMouseX !== 0 || initMouseY - canMouseY !== 0) &&
+		isCharacterLoaded
+	    ) {
+		char.x = option.x.value = -(canvasX + initMouseX - canMouseX);
+		char.y = option.y.value = -(canvasY + initMouseY - canMouseY);
+	    }
+	}
+
+    function handleTouchStart(e) {
+            e.preventDefault();
+            canvasX = -char.x;
+            canvasY = -char.y;
+            initMouseX = parseInt(e.touches[0].clientX - canvasX);
+            initMouseY = parseInt(e.touches[0].clientY - canvasY);
+            isDragging = true;
+        }
+
+
+        function handleTouchMove(e) {
+            canMouseX = parseInt(e.touches[0].clientX - canvasX);
+            canMouseY = parseInt(e.touches[0].clientY - canvasY);
+            if (
+                isDragging &&
+                (initMouseX - canMouseX !== 0 || initMouseY - canMouseY !== 0) &&
+                isCharacterLoaded
+            ) {
+                char.x = option.x.value = -(canvasX + initMouseX - canMouseX);
+                char.y = option.y.value = -(canvasY + initMouseY - canMouseY);
+            }
+        }
+
+        function handleTouchEnd(e) {
+            isDragging = false;
+        }
+
+
+        // Resize event
+        window.addEventListener('resize', function(event){
+            canvasScreen.width = window.innerWidth;
+            canvasScreen.height = window.innerHeight;
+
+        });
+        //Load localStorage if exists
+        if(localStorage["blue-archive-res-model"]) {
+            option.models.value = localStorage["blue-archive-res-model"]
+        } else {
+            option.models.value = option.models.children[0].value;
+        }
+        if(localStorage["blue-archive-res-loop"])
+            option.loop.checked = localStorage["blue-archive-res-loop"]
+
+        // Start
+        reCanvas();
+        loadChar(option.models.value);
+	    
+  
+        let lastPinchDistance = null;
+
+        canvasScreen.addEventListener("touchstart", handleTouchStart);
+        canvasScreen.addEventListener("touchmove", handleTouchMove);
+        canvasScreen.addEventListener("touchend", handleTouchEnd);
+
+    </script>
+    <!-- Exporter -->
+    <script src="../../js/canvas-exporter.js"></script>
+    <!-- Modal Exporter -->
+    <div id="modal-exporter" class="uk-flex-top" uk-modal='{"bg-close": false, "esc-close": false}'>
+        <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical" id="modal-exporter-content">
+            <div id="rendering">
+                <p>Rendering...</p>
+                <progress id="export-progress" class="uk-progress" value="0" max="100"></progress>
+            </div>
+            <div id="complete">
+                <p>Done !</p>
+                <div id="result">
+
+                </div>
+                <p class="uk-text-right">
+                    <button class="uk-button uk-button-primary uk-modal-close" type="button">Close</button>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

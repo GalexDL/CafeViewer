@@ -1,0 +1,286 @@
+
+CharaP0135_10.png
+size: 2048,2048
+format: RGBA8888
+filter: MipMap,MipMap
+repeat: none
+Body
+  rotate: true
+  xy: 824, 1641
+  size: 406, 252
+  orig: 406, 252
+  offset: 0, 0
+  index: -1
+Cheek_L
+  rotate: false
+  xy: 97, 2016
+  size: 24, 31
+  orig: 24, 31
+  offset: 0, 0
+  index: -1
+Collar
+  rotate: false
+  xy: 2, 1605
+  size: 510, 442
+  orig: 510, 442
+  offset: 0, 0
+  index: -1
+Ear_L
+  rotate: 270
+  xy: 1600, 1631
+  size: 126, 425
+  orig: 126, 425
+  offset: 0, 0
+  index: -1
+Ear_R
+  rotate: true
+  xy: 1604, 1759
+  size: 288, 308
+  orig: 315, 308
+  offset: 0, 0
+  index: -1
+Eye_L_AD
+  rotate: false
+  xy: 1914, 1759
+  size: 33, 75
+  orig: 33, 75
+  offset: 0, 0
+  index: -1
+Eye_L_B
+  rotate: false
+  xy: 2, 1881
+  size: 35, 73
+  orig: 35, 73
+  offset: 0, 0
+  index: -1
+Eye_L_C
+  rotate: false
+  xy: 1830, 1976
+  size: 33, 71
+  orig: 33, 71
+  offset: 0, 0
+  index: -1
+Eye_R_AD
+  rotate: false
+  xy: 2, 1956
+  size: 94, 90
+  orig: 94, 90
+  offset: 0, 0
+  index: -1
+Eye_R_B
+  rotate: false
+  xy: 411, 1963
+  size: 98, 83
+  orig: 98, 83
+  offset: 0, 0
+  index: -1
+Eye_R_C
+  rotate: false
+  xy: 703, 1656
+  size: 97, 79
+  orig: 97, 79
+  offset: 0, 0
+  index: -1
+Hair_A
+  rotate: false
+  xy: 1062, 1673
+  size: 80, 76
+  orig: 80, 76
+  offset: 0, 0
+  index: -1
+Hair_B
+  rotate: false
+  xy: 159, 2003
+  size: 65, 43
+  orig: 65, 43
+  offset: 0, 0
+  index: -1
+Hat
+  rotate: false
+  xy: 486, 1590
+  size: 215, 145
+  orig: 215, 145
+  offset: 0, 0
+  index: -1
+Head
+  rotate: true
+  xy: 1057, 1738
+  size: 309, 308
+  orig: 309, 308
+  offset: 0, 0
+  index: -1
+Head_Ribbon
+  rotate: true
+  xy: 1357, 1710
+  size: 115, 93
+  orig: 115, 93
+  offset: 0, 0
+  index: -1
+Head_Ribbon_L
+  rotate: false
+  xy: 1318, 1952
+  size: 59, 94
+  orig: 59, 94
+  offset: 0, 0
+  index: -1
+Head_Ribbon_R
+  rotate: false
+  xy: 401, 1615
+  size: 98, 75
+  orig: 98, 75
+  offset: 0, 0
+  index: -1
+Head_Shadow
+  rotate: 180
+  xy: 1158, 1572
+  size: 297, 187
+  orig: 309, 308
+  offset: 0, 121
+  index: -1
+Head_Shadow_Reverse
+  rotate: true
+  xy: 514, 1737
+  size: 309, 308
+  orig: 309, 308
+  offset: 0, 0
+  index: -1
+Leg_L_A
+  rotate: true
+  xy: 986, 1559
+  size: 102, 208
+  orig: 102, 208
+  offset: 0, 0
+  index: -1
+Leg_L_B
+  rotate: true
+  xy: 1886, 1536
+  size: 107, 160
+  orig: 107, 160
+  offset: 0, 0
+  index: -1
+Leg_R_A
+  rotate: true
+  xy: 1190, 1524
+  size: 86, 157
+  orig: 86, 157
+  offset: 0, 0
+  index: -1
+Leg_R_B
+  rotate: true
+  xy: 1469, 1556
+  size: 138, 209
+  orig: 138, 209
+  offset: 0, 0
+  index: -1
+Mouth_A
+  rotate: false
+  xy: 1370, 2024
+  size: 95, 22
+  orig: 95, 22
+  offset: 0, 0
+  index: -1
+Mouth_B
+  rotate: false
+  xy: 1729, 2012
+  size: 97, 34
+  orig: 97, 34
+  offset: 0, 0
+  index: -1
+Mouth_C
+  rotate: false
+  xy: 1435, 1547
+  size: 123, 53
+  orig: 123, 53
+  offset: 0, 0
+  index: -1
+Mouth_D
+  rotate: false
+  xy: 1123, 2017
+  size: 55, 29
+  orig: 55, 29
+  offset: 0, 0
+  index: -1
+Nose
+  rotate: true
+  xy: 1959, 1738
+  size: 211, 87
+  orig: 211, 87
+  offset: 0, 0
+  index: -1
+Sweat
+  rotate: false
+  xy: 824, 1958
+  size: 40, 88
+  orig: 40, 88
+  offset: 0, 0
+  index: -1
+Tail
+  rotate: false
+  xy: 1366, 1689
+  size: 321, 358
+  orig: 321, 358
+  offset: 0, 0
+  index: -1
+Template/Shadow
+  rotate: false
+  xy: 2, 1568
+  size: 438, 35
+  orig: 438, 35
+  offset: 0, 0
+  index: -1
+Tie_Ribbon_Bace
+  rotate: true
+  xy: 1864, 1836
+  size: 211, 123
+  orig: 211, 123
+  offset: 0, 0
+  index: -1
+Tie_Ribbon_L
+  rotate: true
+  xy: 442, 1526
+  size: 96, 185
+  orig: 97, 185
+  offset: 1, 0
+  index: -1
+Tie_Ribbon_L_Reverse
+  rotate: true
+  xy: 701, 1555
+  size: 97, 185
+  orig: 97, 185
+  offset: 0, 0
+  index: -1
+Tie_Ribbon_Moon
+  rotate: false
+  xy: 1981, 1978
+  size: 56, 68
+  orig: 56, 68
+  offset: 0, 0
+  index: -1
+Tie_Ribbon_Moon_Reverse
+  rotate: false
+  xy: 1042, 1978
+  size: 57, 68
+  orig: 57, 68
+  offset: 0, 0
+  index: -1
+Tie_Ribbon_R
+  rotate: true
+  xy: 7, 1607
+  size: 65, 192
+  orig: 65, 192
+  offset: 0, 0
+  index: -1
+Tie_Ribbon_R_Reverse
+  rotate: true
+  xy: 1680, 1564
+  size: 65, 192
+  orig: 65, 192
+  offset: 0, 0
+  index: -1
+Tie_Ribbon_Reverse
+  rotate: false
+  xy: 888, 1516
+  size: 102, 123
+  orig: 102, 123
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,181 @@
+
+CharaP0132_50.png
+size: 1024,1024
+format: RGBA8888
+filter: MipMap,MipMap
+repeat: none
+Cap
+  rotate: 180
+  xy: 585, 657
+  size: 217, 124
+  orig: 217, 124
+  offset: 0, 0
+  index: -1
+Ear_L
+  rotate: 180
+  xy: 236, 670
+  size: 259, 133
+  orig: 259, 133
+  offset: 0, 0
+  index: -1
+Ear_L2
+  rotate: true
+  xy: 850, 749
+  size: 259, 133
+  orig: 259, 133
+  offset: 0, 0
+  index: -1
+Ear_R
+  rotate: false
+  xy: 735, 721
+  size: 113, 287
+  orig: 113, 287
+  offset: 0, 0
+  index: -1
+Face
+  rotate: false
+  xy: 2, 744
+  size: 324, 264
+  orig: 324, 264
+  offset: 0, 0
+  index: -1
+L_EyeA
+  rotate: false
+  xy: 297, 994
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+L_EyeB
+  rotate: false
+  xy: 273, 998
+  size: 22, 10
+  orig: 22, 10
+  offset: 0, 0
+  index: -1
+Mouth_A
+  rotate: false
+  xy: 380, 619
+  size: 159, 30
+  orig: 159, 30
+  offset: 0, 0
+  index: -1
+Mouth_B
+  rotate: false
+  xy: 541, 618
+  size: 140, 31
+  orig: 140, 31
+  offset: 0, 0
+  index: -1
+Mouth_C
+  rotate: false
+  xy: 214, 636
+  size: 164, 32
+  orig: 164, 32
+  offset: 0, 0
+  index: -1
+R_EyeA
+  rotate: false
+  xy: 29, 993
+  size: 16, 15
+  orig: 16, 15
+  offset: 0, 0
+  index: -1
+R_EyeB
+  rotate: false
+  xy: 2, 998
+  size: 25, 10
+  orig: 25, 10
+  offset: 0, 0
+  index: -1
+Scarf
+  rotate: true
+  xy: 845, 626
+  size: 199, 148
+  orig: 199, 148
+  offset: 0, 0
+  index: -1
+Shadow
+  rotate: false
+  xy: 406, 651
+  size: 343, 30
+  orig: 343, 30
+  offset: 0, 0
+  index: -1
+Sweat
+  rotate: true
+  xy: 317, 811
+  size: 24, 69
+  orig: 24, 69
+  offset: 0, 0
+  index: -1
+arm_l
+  rotate: false
+  xy: 456, 685
+  size: 92, 85
+  orig: 93, 85
+  offset: 0, 0
+  index: -1
+arm_l2
+  rotate: true
+  xy: 481, 917
+  size: 92, 85
+  orig: 93, 85
+  offset: 1, 0
+  index: -1
+arm_r
+  rotate: false
+  xy: 941, 908
+  size: 66, 100
+  orig: 66, 100
+  offset: 0, 0
+  index: -1
+arm_rA
+  rotate: true
+  xy: 804, 639
+  size: 106, 66
+  orig: 107, 69
+  offset: 0, 3
+  index: -1
+body
+  rotate: 270
+  xy: 590, 782
+  size: 227, 144
+  orig: 239, 144
+  offset: 5, 0
+  index: -1
+foot_l
+  rotate: false
+  xy: 422, 985
+  size: 54, 24
+  orig: 54, 24
+  offset: 0, 0
+  index: -1
+foot_r
+  rotate: false
+  xy: 550, 985
+  size: 55, 24
+  orig: 55, 24
+  offset: 0, 0
+  index: -1
+hat_shadow
+  rotate: false
+  xy: 62, 643
+  size: 150, 48
+  orig: 150, 48
+  offset: 0, 0
+  index: -1
+scarf_shadow
+  rotate: true
+  xy: 2, 640
+  size: 168, 131
+  orig: 168, 136
+  offset: 0, 5
+  index: -1
+tail
+  rotate: true
+  xy: 303, 746
+  size: 263, 299
+  orig: 281, 299
+  offset: 0, 0
+  index: -1
