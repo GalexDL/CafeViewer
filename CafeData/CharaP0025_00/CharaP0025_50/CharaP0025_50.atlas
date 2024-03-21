@@ -1,0 +1,209 @@
+
+CharaP0025_50.png
+size: 1024,1024
+format: RGBA8888
+filter: MipMap,MipMap
+repeat: none
+Body
+  rotate: false
+  xy: 256, 47
+  size: 216, 118
+  orig: 228, 175
+  offset: 0, 57
+  index: -1
+Face
+  rotate: false
+  xy: 2, 433
+  size: 324, 264
+  orig: 324, 264
+  offset: 0, 0
+  index: -1
+Fx_Hungry
+  rotate: false
+  xy: 2, 114
+  size: 72, 48
+  orig: 72, 48
+  offset: 0, 0
+  index: -1
+Knit
+  rotate: 270
+  xy: 181, 303
+  size: 395, 306
+  orig: 395, 306
+  offset: 0, 0
+  index: -1
+KnitBack_L
+  rotate: false
+  xy: 474, 118
+  size: 62, 100
+  orig: 62, 100
+  offset: 0, 0
+  index: -1
+KnitBack_R
+  rotate: true
+  xy: 2, 3
+  size: 104, 124
+  orig: 104, 124
+  offset: 0, 0
+  index: -1
+L_EyeA
+  rotate: false
+  xy: 526, 308
+  size: 51, 59
+  orig: 51, 59
+  offset: 0, 0
+  index: -1
+L_EyeB
+  rotate: true
+  xy: 545, 457
+  size: 48, 31
+  orig: 48, 31
+  offset: 0, 0
+  index: -1
+L_EyeC
+  rotate: false
+  xy: 451, 435
+  size: 47, 24
+  orig: 47, 24
+  offset: 0, 0
+  index: -1
+L_EyeS
+  rotate: false
+  xy: 2, 443
+  size: 45, 34
+  orig: 45, 34
+  offset: 0, 0
+  index: -1
+L_Glove
+  rotate: false
+  xy: 462, 435
+  size: 81, 111
+  orig: 81, 111
+  offset: 0, 0
+  index: -1
+L_GloveB
+  rotate: false
+  xy: 488, 548
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+L_Shoe
+  rotate: false
+  xy: 111, 219
+  size: 60, 28
+  orig: 60, 28
+  offset: 0, 0
+  index: -1
+Mouth_A
+  rotate: true
+  xy: 541, 369
+  size: 86, 29
+  orig: 86, 29
+  offset: 0, 0
+  index: -1
+Mouth_B
+  rotate: true
+  xy: 514, 220
+  size: 86, 53
+  orig: 86, 53
+  offset: 0, 0
+  index: -1
+Mouth_C
+  rotate: true
+  xy: 446, 324
+  size: 109, 78
+  orig: 109, 78
+  offset: 0, 0
+  index: -1
+Mouth_D
+  rotate: false
+  xy: 134, 381
+  size: 33, 51
+  orig: 33, 51
+  offset: 0, 0
+  index: -1
+Mouth_S
+  rotate: true
+  xy: 548, 42
+  size: 97, 28
+  orig: 97, 28
+  offset: 0, 0
+  index: -1
+Pants
+  rotate: 180
+  xy: 280, 229
+  size: 232, 93
+  orig: 232, 93
+  offset: 0, 0
+  index: -1
+R_EyeA
+  rotate: false
+  xy: 488, 622
+  size: 59, 65
+  orig: 59, 65
+  offset: 0, 0
+  index: -1
+R_EyeB
+  rotate: true
+  xy: 562, 507
+  size: 53, 22
+  orig: 53, 22
+  offset: 0, 0
+  index: -1
+R_EyeC
+  rotate: true
+  xy: 549, 622
+  size: 49, 28
+  orig: 49, 28
+  offset: 0, 0
+  index: -1
+R_EyeS
+  rotate: false
+  xy: 388, 672
+  size: 65, 25
+  orig: 65, 25
+  offset: 0, 0
+  index: -1
+R_Glove
+  rotate: 270
+  xy: 448, 12
+  size: 104, 98
+  orig: 104, 99
+  offset: 0, 0
+  index: -1
+R_Shoe
+  rotate: false
+  xy: 297, 165
+  size: 70, 36
+  orig: 70, 36
+  offset: 0, 0
+  index: -1
+Shadow
+  rotate: false
+  xy: 128, 6
+  size: 343, 30
+  orig: 343, 30
+  offset: 0, 0
+  index: -1
+Sweat
+  rotate: false
+  xy: 538, 141
+  size: 24, 69
+  orig: 24, 69
+  offset: 0, 0
+  index: -1
+Tail
+  rotate: 270
+  xy: 2, 39
+  size: 263, 299
+  orig: 281, 299
+  offset: 0, 0
+  index: -1
+tail_x
+  rotate: true
+  xy: 2, 180
+  size: 276, 298
+  orig: 281, 299
+  offset: 0, 1
+  index: -1

@@ -1,0 +1,377 @@
+
+CharaP0025_06.png
+size: 2048,2048
+format: RGBA8888
+filter: MipMap,MipMap
+repeat: none
+Body
+  rotate: false
+  xy: 1821, 1054
+  size: 196, 150
+  orig: 196, 150
+  offset: 0, 0
+  index: -1
+Body_Reverse
+  rotate: false
+  xy: 347, 1227
+  size: 196, 150
+  orig: 196, 150
+  offset: 0, 0
+  index: -1
+Close_L_Eye
+  rotate: false
+  xy: 1983, 1588
+  size: 44, 17
+  orig: 44, 17
+  offset: 0, 0
+  index: -1
+Close_Mouth
+  rotate: false
+  xy: 130, 1101
+  size: 77, 26
+  orig: 77, 26
+  offset: 0, 0
+  index: -1
+Close_R_Eye
+  rotate: false
+  xy: 1983, 1628
+  size: 53, 15
+  orig: 53, 15
+  offset: 0, 0
+  index: -1
+Head
+  rotate: false
+  xy: 1750, 705
+  size: 295, 238
+  orig: 295, 238
+  offset: 0, 0
+  index: -1
+L_Arm
+  rotate: false
+  xy: 1939, 970
+  size: 95, 88
+  orig: 95, 88
+  offset: 0, 0
+  index: -1
+L_Ear
+  rotate: false
+  xy: 926, 1283
+  size: 101, 243
+  orig: 101, 243
+  offset: 0, 0
+  index: -1
+L_Leg
+  rotate: false
+  xy: 1985, 1711
+  size: 61, 35
+  orig: 61, 35
+  offset: 0, 0
+  index: -1
+Nose
+  rotate: false
+  xy: 2024, 1926
+  size: 11, 8
+  orig: 11, 8
+  offset: 0, 0
+  index: -1
+Open_L_Eye
+  rotate: false
+  xy: 1983, 1607
+  size: 42, 19
+  orig: 42, 19
+  offset: 0, 0
+  index: -1
+Open_Mouth
+  rotate: false
+  xy: 926, 1232
+  size: 76, 49
+  orig: 76, 49
+  offset: 0, 0
+  index: -1
+Open_R_Eye
+  rotate: false
+  xy: 1983, 1989
+  size: 50, 57
+  orig: 50, 57
+  offset: 0, 0
+  index: -1
+Surprise_R_Eye
+  rotate: false
+  xy: 1983, 1989
+  size: 50, 57
+  orig: 50, 57
+  offset: 0, 0
+  index: -1
+R_Arm
+  rotate: false
+  xy: 248, 1235
+  size: 97, 78
+  orig: 97, 78
+  offset: 0, 0
+  index: -1
+R_ArmB
+  rotate: false
+  xy: 690, 1064
+  size: 115, 81
+  orig: 115, 82
+  offset: 0, 1
+  index: -1
+R_Ear
+  rotate: true
+  xy: 1313, 851
+  size: 202, 168
+  orig: 202, 168
+  offset: 0, 0
+  index: -1
+R_Leg
+  rotate: false
+  xy: 1983, 1747
+  size: 63, 34
+  orig: 63, 34
+  offset: 0, 0
+  index: -1
+Rose_Reverse
+  rotate: false
+  xy: 1983, 1910
+  size: 40, 78
+  orig: 40, 78
+  offset: 0, 0
+  index: -1
+Shadow
+  rotate: false
+  xy: 1151, 617
+  size: 343, 30
+  orig: 343, 30
+  offset: 0, 0
+  index: -1
+Smile_L_Eye
+  rotate: false
+  xy: 1983, 1572
+  size: 37, 14
+  orig: 37, 14
+  offset: 0, 0
+  index: -1
+Smile_Mouth
+  rotate: false
+  xy: 1180, 993
+  size: 98, 59
+  orig: 98, 59
+  offset: 0, 0
+  index: -1
+Smile_R_Eye
+  rotate: false
+  xy: 1983, 1645
+  size: 52, 20
+  orig: 52, 20
+  offset: 0, 0
+  index: -1
+Surprise_L_Eye
+  rotate: false
+  xy: 1983, 1781
+  size: 44, 54
+  orig: 44, 54
+  offset: 0, 0
+  index: -1
+Surprise_Mouth
+  rotate: false
+  xy: 2016, 1667
+  size: 30, 43
+  orig: 30, 43
+  offset: 0, 0
+  index: -1
+Sweat
+  rotate: false
+  xy: 2024, 1936
+  size: 20, 51
+  orig: 20, 51
+  offset: 0, 0
+  index: -1
+Tail
+  rotate: true
+  xy: 685, 616
+  size: 231, 264
+  orig: 231, 264
+  offset: 0, 0
+  index: -1
+Tail_blur
+  rotate: true
+  xy: 852, 626
+  size: 268, 297
+  orig: 268, 297
+  offset: 0, 0
+  index: -1
+Tail_x
+  rotate: false
+  xy: 235, 611
+  size: 237, 262
+  orig: 237, 262
+  offset: 0, 0
+  index: -1
+neck
+  rotate: false
+  xy: 1404, 1004
+  size: 103, 49
+  orig: 103, 49
+  offset: 0, 0
+  index: -1
+rose
+  rotate: false
+  xy: 2006, 1838
+  size: 40, 78
+  orig: 40, 78
+  offset: 0, 0
+  index: -1
+skill/ball
+  rotate: true
+  xy: 1059, 1538
+  size: 508, 505
+  orig: 508, 505
+  offset: 0, 0
+  index: -1
+skill/beamlight1
+  rotate: 270
+  xy: 632, 816
+  size: 459, 424
+  orig: 459, 424
+  offset: 0, 0
+  index: -1
+skill/beamlight2
+  rotate: 180
+  xy: 422, 667
+  size: 438, 459
+  orig: 438, 459
+  offset: 0, 0
+  index: -1
+skill/beamlight3
+  rotate: 270
+  xy: 1058, 802
+  size: 251, 443
+  orig: 251, 443
+  offset: 0, 0
+  index: -1
+skill/beamlight4
+  rotate: false
+  xy: 1138, 645
+  size: 384, 154
+  orig: 384, 154
+  offset: 0, 0
+  index: -1
+skill/beamlight5
+  rotate: false
+  xy: 2, 1078
+  size: 461, 436
+  orig: 461, 436
+  offset: 0, 0
+  index: -1
+skill/ef_tomato_koge
+  rotate: false
+  xy: 444, 1380
+  size: 99, 109
+  orig: 99, 109
+  offset: 0, 0
+  index: -1
+skill/eggplant
+  rotate: false
+  xy: 545, 1000
+  size: 143, 144
+  orig: 143, 144
+  offset: 0, 0
+  index: -1
+skill/el_ball
+  rotate: true
+  xy: 1566, 1627
+  size: 419, 415
+  orig: 419, 415
+  offset: 0, 0
+  index: -1
+skill/el_ball2
+  rotate: true
+  xy: 1566, 1206
+  size: 419, 415
+  orig: 419, 415
+  offset: 0, 0
+  index: -1
+skill/el_big
+  rotate: true
+  xy: 545, 1527
+  size: 519, 512
+  orig: 519, 512
+  offset: 0, 0
+  index: -1
+skill/el_big2
+  rotate: false
+  xy: 2, 1516
+  size: 541, 530
+  orig: 541, 530
+  offset: 0, 0
+  index: -1
+skill/el_big3
+  rotate: false
+  xy: 1059, 1054
+  size: 487, 482
+  orig: 487, 482
+  offset: 0, 0
+  index: -1
+skill/light1
+  rotate: false
+  xy: 545, 1146
+  size: 379, 379
+  orig: 379, 379
+  offset: 0, 0
+  index: -1
+skill/light2
+  rotate: false
+  xy: 1548, 933
+  size: 271, 271
+  orig: 271, 271
+  offset: 0, 0
+  index: -1
+skill/nasu_koge
+  rotate: true
+  xy: 1750, 593
+  size: 117, 119
+  orig: 117, 119
+  offset: 0, 0
+  index: -1
+skill/onion
+  rotate: false
+  xy: 69, 943
+  size: 138, 134
+  orig: 138, 134
+  offset: 0, 0
+  index: -1
+skill/steam1
+  rotate: true
+  xy: 209, 875
+  size: 343, 334
+  orig: 343, 334
+  offset: 0, 0
+  index: -1
+skill/steam2
+  rotate: false
+  xy: 1503, 693
+  size: 245, 238
+  orig: 245, 238
+  offset: 0, 0
+  index: -1
+skill/steam3
+  rotate: false
+  xy: 2, 688
+  size: 231, 185
+  orig: 231, 185
+  offset: 0, 0
+  index: -1
+skill/tama_koge
+  rotate: false
+  xy: 1821, 955
+  size: 105, 102
+  orig: 105, 102
+  offset: 0, 0
+  index: -1
+skill/tomato
+  rotate: false
+  xy: 592, 628
+  size: 121, 132
+  orig: 121, 132
+  offset: 0, 0
+  index: -1
