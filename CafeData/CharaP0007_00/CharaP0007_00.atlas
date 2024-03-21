@@ -1,0 +1,293 @@
+
+CharaP0007_00.png
+size: 1024,1024
+format: RGBA8888
+filter: MipMap,MipMap
+repeat: none
+Cap_Shadow
+  rotate: false
+  xy: 87, 458
+  size: 214, 90
+  orig: 214, 90
+  offset: 0, 0
+  index: -1
+Color_Cap
+  rotate: true
+  xy: 891, 598
+  size: 235, 130
+  orig: 235, 130
+  offset: 0, 0
+  index: -1
+Color_CapLight
+  rotate: 270
+  xy: 2, 525
+  size: 235, 130
+  orig: 235, 130
+  offset: 0, 0
+  index: -1
+Color_Scarf
+  rotate: true
+  xy: 780, 380
+  size: 181, 189
+  orig: 181, 189
+  offset: 0, 0
+  index: -1
+Color_ScarfLight
+  rotate: 180
+  xy: 292, 358
+  size: 181, 189
+  orig: 181, 189
+  offset: 0, 0
+  index: -1
+Color_ScarfMark
+  rotate: false
+  xy: 285, 975
+  size: 48, 48
+  orig: 181, 189
+  offset: 130, 23
+  index: -1
+Fx_Sweat
+  rotate: false
+  xy: 445, 674
+  size: 24, 69
+  orig: 24, 69
+  offset: 0, 0
+  index: -1
+Head_A
+  rotate: false
+  xy: 2, 745
+  size: 321, 278
+  orig: 321, 278
+  offset: 0, 0
+  index: -1
+Head_B
+  rotate: 180
+  xy: 305, 745
+  size: 321, 278
+  orig: 321, 278
+  offset: 0, 0
+  index: -1
+Hip
+  rotate: false
+  xy: 178, 526
+  size: 267, 241
+  orig: 267, 241
+  offset: 0, 0
+  index: -1
+HipB
+  rotate: 180
+  xy: 624, 767
+  size: 351, 255
+  orig: 351, 255
+  offset: 0, 0
+  index: -1
+HipBa
+  rotate: 180
+  xy: 482, 533
+  size: 351, 255
+  orig: 351, 255
+  offset: 0, 0
+  index: -1
+L_Arm
+  rotate: false
+  xy: 80, 356
+  size: 131, 103
+  orig: 131, 103
+  offset: 0, 0
+  index: -1
+L_Eye_AD
+  rotate: false
+  xy: 2, 668
+  size: 41, 122
+  orig: 41, 122
+  offset: 0, 0
+  index: -1
+L_Eye_B
+  rotate: false
+  xy: 833, 649
+  size: 36, 116
+  orig: 36, 116
+  offset: 0, 0
+  index: -1
+L_Eye_C
+  rotate: false
+  xy: 141, 635
+  size: 37, 108
+  orig: 37, 108
+  offset: 0, 0
+  index: -1
+L_Eye_Hi_AD
+  rotate: false
+  xy: 348, 1007
+  size: 9, 15
+  orig: 9, 15
+  offset: 0, 0
+  index: -1
+L_Eyeblow
+  rotate: false
+  xy: 274, 1007
+  size: 13, 15
+  orig: 13, 15
+  offset: 0, 0
+  index: -1
+L_Finger
+  rotate: false
+  xy: 2, 999
+  size: 37, 23
+  orig: 37, 23
+  offset: 0, 0
+  index: -1
+L_Leg
+  rotate: false
+  xy: 459, 329
+  size: 105, 98
+  orig: 105, 98
+  offset: 0, 0
+  index: -1
+L_Pupil_A
+  rotate: false
+  xy: 990, 661
+  size: 32, 114
+  orig: 32, 114
+  offset: 0, 0
+  index: -1
+L_Pupil_D
+  rotate: false
+  xy: 2, 301
+  size: 30, 107
+  orig: 30, 109
+  offset: 0, 0
+  index: -1
+Mouth_A
+  rotate: 180
+  xy: 564, 302
+  size: 235, 67
+  orig: 235, 67
+  offset: 0, 0
+  index: -1
+Mouth_B
+  rotate: 180
+  xy: 340, 297
+  size: 234, 55
+  orig: 234, 55
+  offset: 0, 0
+  index: -1
+Mouth_C
+  rotate: 180
+  xy: 778, 323
+  size: 235, 79
+  orig: 235, 79
+  offset: 0, 0
+  index: -1
+Mouth_D
+  rotate: false
+  xy: 562, 979
+  size: 111, 44
+  orig: 111, 44
+  offset: 0, 0
+  index: -1
+Mouth_E
+  rotate: false
+  xy: 854, 451
+  size: 153, 37
+  orig: 192, 37
+  offset: 39, 0
+  index: -1
+Nose
+  rotate: false
+  xy: 41, 1013
+  size: 35, 9
+  orig: 35, 9
+  offset: 0, 0
+  index: -1
+R_Arm
+  rotate: false
+  xy: 355, 333
+  size: 102, 94
+  orig: 102, 94
+  offset: 0, 0
+  index: -1
+R_Eye_AD
+  rotate: false
+  xy: 703, 406
+  size: 90, 130
+  orig: 90, 130
+  offset: 0, 0
+  index: -1
+R_Eye_B
+  rotate: false
+  xy: 2, 398
+  size: 85, 125
+  orig: 85, 125
+  offset: 0, 0
+  index: -1
+R_Eye_C
+  rotate: true
+  xy: 613, 341
+  size: 86, 115
+  orig: 86, 115
+  offset: 0, 0
+  index: -1
+R_Eye_Hi_AD
+  rotate: false
+  xy: 335, 1003
+  size: 11, 19
+  orig: 11, 19
+  offset: 0, 0
+  index: -1
+R_Eyeblow
+  rotate: false
+  xy: 257, 1007
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+R_Hand
+  rotate: false
+  xy: 964, 563
+  size: 59, 74
+  orig: 65, 93
+  offset: 6, 0
+  index: -1
+R_Leg
+  rotate: 180
+  xy: 134, 286
+  size: 89, 92
+  orig: 89, 93
+  offset: 0, 0
+  index: -1
+R_Pupil_A
+  rotate: false
+  xy: 949, 899
+  size: 69, 123
+  orig: 69, 123
+  offset: 0, 0
+  index: -1
+R_Pupil_D
+  rotate: false
+  xy: 213, 338
+  size: 69, 119
+  orig: 69, 119
+  offset: 0, 0
+  index: -1
+Scarf_Shadow
+  rotate: true
+  xy: 446, 461
+  size: 179, 197
+  orig: 179, 197
+  offset: 0, 0
+  index: -1
+Shadow
+  rotate: false
+  xy: 354, 429
+  size: 343, 30
+  orig: 343, 30
+  offset: 0, 0
+  index: -1
+Tail
+  rotate: 270
+  xy: 821, 490
+  size: 168, 141
+  orig: 168, 141
+  offset: 0, 0
+  index: -1

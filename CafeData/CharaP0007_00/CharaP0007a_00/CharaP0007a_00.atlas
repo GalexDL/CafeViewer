@@ -1,0 +1,279 @@
+
+CharaP0007a_00.png
+size: 1024,1024
+format: RGBA8888
+filter: MipMap,MipMap
+repeat: none
+Cap_Shadow
+  rotate: false
+  xy: 363, 589
+  size: 214, 90
+  orig: 214, 90
+  offset: 0, 0
+  index: -1
+Color_Cap
+  rotate: 270
+  xy: 836, 729
+  size: 235, 130
+  orig: 235, 130
+  offset: 0, 0
+  index: -1
+Color_CapLight
+  rotate: false
+  xy: 601, 624
+  size: 235, 130
+  orig: 235, 130
+  offset: 0, 0
+  index: -1
+Color_Scarf
+  rotate: false
+  xy: 808, 575
+  size: 181, 189
+  orig: 181, 189
+  offset: 0, 0
+  index: -1
+Color_ScarfLight
+  rotate: true
+  xy: 559, 547
+  size: 181, 189
+  orig: 181, 189
+  offset: 0, 0
+  index: -1
+Color_ScarfMark
+  rotate: false
+  xy: 2, 399
+  size: 48, 48
+  orig: 181, 189
+  offset: 130, 23
+  index: -1
+Fx_Sweat
+  rotate: false
+  xy: 2, 609
+  size: 24, 69
+  orig: 24, 69
+  offset: 0, 0
+  index: -1
+Head_A
+  rotate: false
+  xy: 2, 713
+  size: 321, 278
+  orig: 321, 278
+  offset: 0, 0
+  index: -1
+Head_B
+  rotate: 180
+  xy: 305, 713
+  size: 321, 278
+  orig: 321, 278
+  offset: 0, 0
+  index: -1
+Hip
+  rotate: true
+  xy: 627, 722
+  size: 267, 241
+  orig: 267, 241
+  offset: 0, 0
+  index: -1
+L_Arm
+  rotate: 180
+  xy: 707, 471
+  size: 131, 103
+  orig: 131, 103
+  offset: 0, 0
+  index: -1
+L_Eye_AD
+  rotate: true
+  xy: 376, 670
+  size: 41, 122
+  orig: 41, 122
+  offset: 0, 0
+  index: -1
+L_Eye_B
+  rotate: true
+  xy: 2, 442
+  size: 36, 116
+  orig: 36, 116
+  offset: 0, 0
+  index: -1
+L_Eye_C
+  rotate: true
+  xy: 684, 433
+  size: 37, 108
+  orig: 37, 108
+  offset: 0, 0
+  index: -1
+L_Eye_Hi_AD
+  rotate: false
+  xy: 2, 933
+  size: 9, 15
+  orig: 9, 15
+  offset: 0, 0
+  index: -1
+L_Eyeblow
+  rotate: false
+  xy: 2, 766
+  size: 13, 15
+  orig: 13, 15
+  offset: 0, 0
+  index: -1
+L_Finger
+  rotate: false
+  xy: 2, 967
+  size: 37, 23
+  orig: 37, 23
+  offset: 0, 0
+  index: -1
+L_Leg
+  rotate: false
+  xy: 238, 447
+  size: 105, 98
+  orig: 105, 98
+  offset: 0, 0
+  index: -1
+L_Pupil_A
+  rotate: true
+  xy: 216, 413
+  size: 32, 114
+  orig: 32, 114
+  offset: 0, 0
+  index: -1
+L_Pupil_D
+  rotate: true
+  xy: 262, 960
+  size: 30, 107
+  orig: 30, 109
+  offset: 0, 0
+  index: -1
+Mouth_A
+  rotate: 180
+  xy: 448, 414
+  size: 235, 67
+  orig: 235, 67
+  offset: 0, 0
+  index: -1
+Mouth_B
+  rotate: 180
+  xy: 670, 398
+  size: 234, 55
+  orig: 234, 55
+  offset: 0, 0
+  index: -1
+Mouth_C
+  rotate: false
+  xy: 2, 467
+  size: 235, 79
+  orig: 235, 79
+  offset: 0, 0
+  index: -1
+Mouth_D
+  rotate: false
+  xy: 70, 669
+  size: 111, 44
+  orig: 111, 44
+  offset: 0, 0
+  index: -1
+Mouth_E
+  rotate: false
+  xy: 200, 579
+  size: 153, 37
+  orig: 192, 37
+  offset: 39, 0
+  index: -1
+Nose
+  rotate: false
+  xy: 41, 981
+  size: 35, 9
+  orig: 35, 9
+  offset: 0, 0
+  index: -1
+R_Arm
+  rotate: false
+  xy: 588, 460
+  size: 102, 94
+  orig: 102, 94
+  offset: 0, 0
+  index: -1
+R_Eye_AD
+  rotate: true
+  xy: 852, 520
+  size: 90, 130
+  orig: 90, 130
+  offset: 0, 0
+  index: -1
+R_Eye_B
+  rotate: true
+  xy: 347, 510
+  size: 85, 125
+  orig: 85, 125
+  offset: 0, 0
+  index: -1
+R_Eye_C
+  rotate: false
+  xy: 473, 473
+  size: 86, 115
+  orig: 86, 115
+  offset: 0, 0
+  index: -1
+R_Eye_Hi_AD
+  rotate: false
+  xy: 2, 783
+  size: 11, 19
+  orig: 11, 19
+  offset: 0, 0
+  index: -1
+R_Eyeblow
+  rotate: false
+  xy: 2, 950
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+R_Hand
+  rotate: true
+  xy: 911, 399
+  size: 59, 74
+  orig: 65, 93
+  offset: 6, 0
+  index: -1
+R_Leg
+  rotate: true
+  xy: 123, 412
+  size: 89, 92
+  orig: 89, 93
+  offset: 0, 0
+  index: -1
+R_Pupil_A
+  rotate: true
+  xy: 813, 449
+  size: 69, 123
+  orig: 69, 123
+  offset: 0, 0
+  index: -1
+R_Pupil_D
+  rotate: true
+  xy: 327, 440
+  size: 69, 119
+  orig: 69, 119
+  offset: 0, 0
+  index: -1
+Scarf_Shadow
+  rotate: true
+  xy: 2, 579
+  size: 179, 197
+  orig: 179, 197
+  offset: 0, 0
+  index: -1
+Shadow
+  rotate: false
+  xy: 2, 547
+  size: 343, 30
+  orig: 343, 30
+  offset: 0, 0
+  index: -1
+Tail
+  rotate: 180
+  xy: 193, 619
+  size: 168, 141
+  orig: 168, 141
+  offset: 0, 0
+  index: -1

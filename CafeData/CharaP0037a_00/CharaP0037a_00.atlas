@@ -1,0 +1,272 @@
+
+CharaP0037a_00.png
+size: 1024,1024
+format: RGBA8888
+filter: MipMap,MipMap
+repeat: none
+Body
+  rotate: false
+  xy: 8, 606
+  size: 250, 140
+  orig: 250, 140
+  offset: 0, 0
+  index: -1
+Color_Scarf
+  rotate: 270
+  xy: 859, 670
+  size: 160, 152
+  orig: 160, 152
+  offset: 0, 0
+  index: -1
+Color_ScarfLight
+  rotate: true
+  xy: 806, 620
+  size: 160, 152
+  orig: 160, 152
+  offset: 0, 0
+  index: -1
+Color_ScarfMark
+  rotate: false
+  xy: 846, 493
+  size: 160, 152
+  orig: 160, 152
+  offset: 0, 0
+  index: -1
+Fx_Star
+  rotate: false
+  xy: 690, 480
+  size: 81, 81
+  orig: 81, 81
+  offset: 0, 0
+  index: -1
+Hair_A
+  rotate: 270
+  xy: 663, 781
+  size: 239, 219
+  orig: 239, 219
+  offset: 0, 0
+  index: -1
+Hair_A_Reverse
+  rotate: true
+  xy: 598, 601
+  size: 238, 218
+  orig: 238, 218
+  offset: 0, 0
+  index: -1
+Hair_B
+  rotate: true
+  xy: 298, 560
+  size: 220, 221
+  orig: 220, 221
+  offset: 0, 0
+  index: -1
+Hair_Shadow
+  rotate: true
+  xy: 870, 794
+  size: 226, 96
+  orig: 226, 96
+  offset: 0, 0
+  index: -1
+Head_A
+  rotate: false
+  xy: 301, 766
+  size: 366, 254
+  orig: 366, 254
+  offset: 0, 0
+  index: -1
+L_Ear
+  rotate: true
+  xy: 500, 603
+  size: 109, 123
+  orig: 109, 123
+  offset: 0, 0
+  index: -1
+L_EarFur
+  rotate: false
+  xy: 656, 847
+  size: 39, 68
+  orig: 39, 68
+  offset: 0, 0
+  index: -1
+L_EyeLightA
+  rotate: false
+  xy: 317, 896
+  size: 16, 39
+  orig: 16, 39
+  offset: 0, 0
+  index: -1
+L_EyeLightB
+  rotate: false
+  xy: 2, 1005
+  size: 12, 14
+  orig: 12, 14
+  offset: 0, 0
+  index: -1
+L_Eye_AD
+  rotate: false
+  xy: 570, 704
+  size: 28, 79
+  orig: 28, 79
+  offset: 0, 0
+  index: -1
+L_Eye_B
+  rotate: false
+  xy: 358, 930
+  size: 35, 68
+  orig: 35, 68
+  offset: 0, 0
+  index: -1
+L_Eye_C
+  rotate: true
+  xy: 129, 985
+  size: 35, 68
+  orig: 35, 68
+  offset: 0, 0
+  index: -1
+L_Eye_E
+  rotate: false
+  xy: 981, 590
+  size: 28, 79
+  orig: 28, 79
+  offset: 0, 0
+  index: -1
+L_Leg_A
+  rotate: false
+  xy: 241, 625
+  size: 55, 142
+  orig: 55, 142
+  offset: 0, 0
+  index: -1
+L_Leg_B
+  rotate: 270
+  xy: 433, 477
+  size: 100, 128
+  orig: 100, 128
+  offset: 0, 0
+  index: -1
+Mouth_A
+  rotate: false
+  xy: 190, 998
+  size: 28, 21
+  orig: 28, 21
+  offset: 0, 0
+  index: -1
+Mouth_B
+  rotate: false
+  xy: 218, 1009
+  size: 38, 10
+  orig: 38, 10
+  offset: 0, 0
+  index: -1
+Mouth_C
+  rotate: false
+  xy: 29, 739
+  size: 54, 30
+  orig: 54, 30
+  offset: 0, 0
+  index: -1
+Mouth_D
+  rotate: false
+  xy: 508, 744
+  size: 61, 27
+  orig: 61, 27
+  offset: 0, 0
+  index: -1
+Mouth_E
+  rotate: false
+  xy: 256, 1009
+  size: 38, 10
+  orig: 38, 10
+  offset: 0, 0
+  index: -1
+R_EarFur
+  rotate: 180
+  xy: 773, 470
+  size: 78, 90
+  orig: 78, 90
+  offset: 0, 0
+  index: -1
+R_EyeLightA
+  rotate: false
+  xy: 962, 878
+  size: 47, 51
+  orig: 47, 51
+  offset: 0, 0
+  index: -1
+R_EyeLightB
+  rotate: false
+  xy: 634, 988
+  size: 25, 31
+  orig: 25, 31
+  offset: 0, 0
+  index: -1
+R_Eye_AD
+  rotate: false
+  xy: 101, 513
+  size: 105, 98
+  orig: 105, 98
+  offset: 0, 0
+  index: -1
+R_Eye_B
+  rotate: false
+  xy: 207, 514
+  size: 96, 101
+  orig: 96, 101
+  offset: 0, 0
+  index: -1
+R_Eye_C
+  rotate: false
+  xy: 922, 931
+  size: 96, 89
+  orig: 96, 89
+  offset: 0, 0
+  index: -1
+R_Eye_E
+  rotate: true
+  xy: 2, 499
+  size: 105, 98
+  orig: 105, 98
+  offset: 0, 0
+  index: -1
+R_Leg_A
+  rotate: true
+  xy: 563, 487
+  size: 75, 125
+  orig: 75, 125
+  offset: 0, 0
+  index: -1
+R_Leg_B
+  rotate: 270
+  xy: 305, 481
+  size: 95, 161
+  orig: 95, 161
+  offset: 0, 0
+  index: -1
+ScarfShadow
+  rotate: 180
+  xy: 309, 935
+  size: 81, 84
+  orig: 81, 84
+  offset: 0, 0
+  index: -1
+Sweat
+  rotate: false
+  xy: 2, 747
+  size: 25, 72
+  orig: 25, 72
+  offset: 0, 0
+  index: -1
+Tail
+  rotate: false
+  xy: 2, 746
+  size: 316, 274
+  orig: 316, 274
+  offset: 0, 0
+  index: -1
+Template/Shadow
+  rotate: false
+  xy: 459, 563
+  size: 438, 35
+  orig: 438, 35
+  offset: 0, 0
+  index: -1
